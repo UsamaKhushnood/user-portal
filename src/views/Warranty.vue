@@ -81,19 +81,19 @@
                                         <span class="stm-cont-h">Company Name</span>
                                         <span>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                         </span>
                                     </div>
@@ -107,7 +107,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-right task-icon-com task-ctnt-dot">
                                         <svg class="">
-                                            <use xlink:href="#more"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#more"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -121,19 +121,19 @@
                                         <span class="stm-cont-h">Company Name</span>
                                         <span>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                         </span>
                                     </div>
@@ -147,7 +147,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-right task-icon-com task-ctnt-dot">
                                         <svg class="">
-                                            <use xlink:href="#more"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#more"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -189,19 +189,19 @@
                                         <span class="stm-cont-h">User Name</span>
                                         <span>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                         </span>
                                     </div>
@@ -215,7 +215,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-right task-icon-com task-ctnt-dot">
                                         <svg class="">
-                                            <use xlink:href="#more"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#more"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -229,19 +229,19 @@
                                         <span class="stm-cont-h">User Name</span>
                                         <span>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                             <svg class="sw-rat-icon">
-                                                <use xlink:href="#star-2"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                             </svg>
                                         </span>
                                     </div>
@@ -255,7 +255,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-right task-icon-com task-ctnt-dot">
                                         <svg class="">
-                                            <use xlink:href="#more"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#more"></use>
                                         </svg>
                                     </div>
                                 </div>

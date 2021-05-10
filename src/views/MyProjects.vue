@@ -137,8 +137,8 @@
                   <div class="task-content-row">
                     <div class="task-content ticket-prgs-common border-0">
                       <div class="tckt-t-w task-icon">
-                        <svg class="">
-                          <use xlink:href="#post-it-1"></use>
+                        <svg class="icon">
+                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">
@@ -162,7 +162,7 @@
                     <div class="task-content ticket-prgs-common border-0">
                       <div class="tckt-t-w task-icon">
                         <svg class="">
-                          <use xlink:href="#post-it-1"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">
@@ -186,7 +186,7 @@
                     <div class="task-content ticket-prgs-common border-0">
                       <div class="tckt-t-w task-icon">
                         <svg class="">
-                          <use xlink:href="#post-it-1"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">

@@ -39,7 +39,7 @@
                 <div class="main-header-content-right-common">
                   <div class="main-header-content-right-inner">
                     <svg class="icon">
-                      <use xlink:href="#medal"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#medal"></use>
                     </svg>
                     <div class="mhc-RRcontent">
                       <span class="mhc-rc-h">Eat &amp; Drink</span>
@@ -56,7 +56,7 @@
                     data-target="#post-popup"
                   >
                     <svg class="icon">
-                      <use xlink:href="#sticky-notes"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#sticky-notes"></use>
                     </svg>
                     <div class="mhc-RRcontent">
                       <span class="mhc-rc-h">Post a Project</span>
@@ -70,7 +70,7 @@
               class="main-header-content-left2 main-header-content-left-setting"
             >
               <svg class="icon">
-                <use xlink:href="#warning"></use>
+                <use xlink:href="@/assets/svg-sprite.svg#warning"></use>
               </svg>
               <div class="mhc-Rcontent">
                 <span class="mhc-rc-nc"

@@ -7,7 +7,7 @@
     <div class="add-j-new-tsk crsr-pntr pop-over" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#add-new-tsk">
         <div class="add-j-new-tsk-icon">
             <svg class="">
-                <use xlink:href="#completed-task"></use>
+                <use xlink:href="@/assets/svg-sprite.svg#completed-task"></use>
             </svg>
         </div>
         <div class="add-j-new-tsk-det">
@@ -424,7 +424,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -459,7 +459,7 @@
                                         <div class="task-content ticket-prgs-common">
                                             <div class="tckt-t-w task-icon">
                                                 <svg class="">
-                                                    <use xlink:href="#task"></use>
+                                                    <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                                 </svg>
                                             </div>
                                             <div class="task-ctnt-common task-det">
@@ -479,7 +479,7 @@
                                         <div class="task-content ticket-prgs-common">
                                             <div class="tckt-t-w task-icon">
                                                 <svg class="">
-                                                    <use xlink:href="#task"></use>
+                                                    <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                                 </svg>
                                             </div>
                                             <div class="task-ctnt-common task-det">
@@ -503,7 +503,7 @@
                                         <div class="task-content ticket-prgs-common">
                                             <div class="tckt-t-w task-icon">
                                                 <svg class="">
-                                                    <use xlink:href="#task"></use>
+                                                    <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                                 </svg>
                                             </div>
                                             <div class="task-ctnt-common task-det">
@@ -527,7 +527,7 @@
                                         <div class="task-content ticket-prgs-common">
                                             <div class="tckt-t-w task-icon">
                                                 <svg class="">
-                                                    <use xlink:href="#task"></use>
+                                                    <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                                 </svg>
                                             </div>
                                             <div class="task-ctnt-common task-det">
@@ -553,7 +553,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -607,7 +607,7 @@
                                 <div class="task-content ticket-prgs-common no-border">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -631,7 +631,7 @@
                                 <div class="task-content ticket-prgs-common no-border">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -683,7 +683,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -710,7 +710,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -765,7 +765,7 @@
                                 <div class="task-content ticket-prgs-common no-border">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -789,7 +789,7 @@
                                 <div class="task-content ticket-prgs-common no-border">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -841,7 +841,7 @@
                                 <div class="task-content ticket-prgs-common no-border">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -865,7 +865,7 @@
                                 <div class="task-content ticket-prgs-common no-border">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -917,7 +917,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -944,7 +944,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#task"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">

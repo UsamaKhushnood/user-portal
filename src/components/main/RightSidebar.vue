@@ -79,7 +79,7 @@
               <div class="ls-f-bottom-icon ls-f-b-messages">
                 <a href="#">
                   <svg class="icon">
-                    <use xlink:href="#settings"></use>
+                    <use xlink:href="@/assets/svg-sprite.svg#settings"></use>
                   </svg>
                 </a>
               </div>
@@ -89,12 +89,12 @@
 
         <!-- 	<div class="search-friend inline-items">
 			<a href="#" class="js-sidebar-open">
-				<svg class="olymp-menu-icon"><use xlink:href="#olymp-menu-icon"></use></svg>
+				<svg class="olymp-menu-icon"><use xlink:href="@/assets/svg-sprite.svg#olymp-menu-icon"></use></svg>
 			</a>
 		</div>
  -->
         <!-- 	<a href="#" class="olympus-chat inline-items js-chat-open">
-			<svg class="olymp-chat---messages-icon"><use xlink:href="#olymp-chat---messages-icon"></use></svg>
+			<svg class="olymp-chat---messages-icon"><use xlink:href="@/assets/svg-sprite.svg#olymp-chat---messages-icon"></use></svg>
 		</a> -->
       </div>
 
@@ -119,7 +119,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -130,7 +130,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -141,7 +141,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -152,7 +152,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -171,7 +171,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -182,7 +182,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -193,7 +193,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -204,7 +204,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -224,7 +224,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -235,7 +235,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -246,7 +246,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -257,7 +257,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -277,7 +277,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -288,7 +288,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -299,7 +299,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -310,7 +310,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -330,7 +330,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -341,7 +341,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -352,7 +352,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -363,7 +363,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -390,7 +390,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -401,7 +401,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -412,7 +412,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -423,7 +423,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -450,7 +450,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -461,7 +461,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -472,7 +472,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -483,7 +483,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -502,7 +502,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -513,7 +513,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -524,7 +524,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -535,7 +535,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -554,7 +554,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -565,7 +565,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -576,7 +576,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -587,7 +587,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -606,7 +606,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -617,7 +617,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -628,7 +628,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -639,7 +639,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -658,7 +658,7 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="#olymp-three-dots-icon"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -669,7 +669,7 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="#olymp-comments-post-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
                     </svg>
                   </li>
 
@@ -680,7 +680,7 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="#olymp-add-to-conversation-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
                     </svg>
                   </li>
 
@@ -691,7 +691,7 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="#olymp-block-from-chat-icon"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
                     </svg>
                   </li>
                 </ul>
@@ -712,12 +712,12 @@
 
           <a href="#" class="settings">
             <svg class="olymp-settings-icon">
-              <use xlink:href="#olymp-settings-icon"></use>
+              <use xlink:href="@/assets/svg-sprite.svg#olymp-settings-icon"></use>
             </svg>
           </a>
 
           <!-- 	<a href="#" class="js-sidebar-open">
-				<svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+				<svg class="olymp-close-icon"><use xlink:href="@/assets/svg-sprite.svg#olymp-close-icon"></use></svg>
 			</a> -->
         </div>
 

@@ -105,59 +105,19 @@
                                 </div>
                                 <div class="b-s-review">
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                </div>
-                                <div class="b-s-fav">
-                                    <i class="fa fa-heart"></i>
-                                    <span class="b-s-prc">$ 35.99</span>
-                                </div>
-                                <div class="b-s-btn-com">
-                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#payment-buy">Buy Now</a>
-                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#send-gift">Send as Gift</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                            <div class="b-s-container">
-                                <img class="b-s-img" src="@/assets/img/choose-photo3.jpg" data-toggle="modal" data-target="#offer-time">
-                                <div class="b-s-provider">
-                                    <img class="b-s-p-img" src="@/assets/img/choose-photo3.jpg">
-                                    <div class="b-s-desig">
-                                        <span class="b-s-desig-h">Awesome Villa</span>
-                                        <span class="c-orange">CEO</span>
-                                    </div>
-                                </div>
-                                <div class="b-s-det">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </div>
-                                <div class="b-s-review">
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                 </div>
                                 <div class="b-s-fav">
@@ -185,59 +145,19 @@
                                 </div>
                                 <div class="b-s-review">
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                </div>
-                                <div class="b-s-fav">
-                                    <i class="fa fa-heart"></i>
-                                    <span class="b-s-prc">$ 35.99</span>
-                                </div>
-                                <div class="b-s-btn-com">
-                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#payment-buy">Buy Now</a>
-                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#send-gift">Send as Gift</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                            <div class="b-s-container">
-                                <img class="b-s-img" src="@/assets/img/choose-photo3.jpg" data-toggle="modal" data-target="#offer-time">
-                                <div class="b-s-provider">
-                                    <img class="b-s-p-img" src="@/assets/img/choose-photo3.jpg">
-                                    <div class="b-s-desig">
-                                        <span class="b-s-desig-h">Awesome Villa</span>
-                                        <span class="c-orange">CEO</span>
-                                    </div>
-                                </div>
-                                <div class="b-s-det">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </div>
-                                <div class="b-s-review">
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
-                                    </svg>
-                                    <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                 </div>
                                 <div class="b-s-fav">
@@ -265,19 +185,19 @@
                                 </div>
                                 <div class="b-s-review">
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                 </div>
                                 <div class="b-s-fav">
@@ -305,19 +225,99 @@
                                 </div>
                                 <div class="b-s-review">
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                     <svg class="">
-                                        <use xlink:href="#star-2"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                </div>
+                                <div class="b-s-fav">
+                                    <i class="fa fa-heart"></i>
+                                    <span class="b-s-prc">$ 35.99</span>
+                                </div>
+                                <div class="b-s-btn-com">
+                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#payment-buy">Buy Now</a>
+                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#send-gift">Send as Gift</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="b-s-container">
+                                <img class="b-s-img" src="@/assets/img/choose-photo3.jpg" data-toggle="modal" data-target="#offer-time">
+                                <div class="b-s-provider">
+                                    <img class="b-s-p-img" src="@/assets/img/choose-photo3.jpg">
+                                    <div class="b-s-desig">
+                                        <span class="b-s-desig-h">Awesome Villa</span>
+                                        <span class="c-orange">CEO</span>
+                                    </div>
+                                </div>
+                                <div class="b-s-det">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </div>
+                                <div class="b-s-review">
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                </div>
+                                <div class="b-s-fav">
+                                    <i class="fa fa-heart"></i>
+                                    <span class="b-s-prc">$ 35.99</span>
+                                </div>
+                                <div class="b-s-btn-com">
+                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#payment-buy">Buy Now</a>
+                                    <a class="pop-over crsr-pntr" data-toggle="modal" data-target="#send-gift">Send as Gift</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="b-s-container">
+                                <img class="b-s-img" src="@/assets/img/choose-photo3.jpg" data-toggle="modal" data-target="#offer-time">
+                                <div class="b-s-provider">
+                                    <img class="b-s-p-img" src="@/assets/img/choose-photo3.jpg">
+                                    <div class="b-s-desig">
+                                        <span class="b-s-desig-h">Awesome Villa</span>
+                                        <span class="c-orange">CEO</span>
+                                    </div>
+                                </div>
+                                <div class="b-s-det">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </div>
+                                <div class="b-s-review">
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
+                                    </svg>
+                                    <svg class="">
+                                        <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                                     </svg>
                                 </div>
                                 <div class="b-s-fav">
@@ -365,7 +365,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#shopping-cart-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#shopping-cart-1"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -390,7 +390,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#shopping-cart-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#shopping-cart-1"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -415,7 +415,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#shopping-cart-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#shopping-cart-1"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -468,7 +468,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#gift-box"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#gift-box"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -493,7 +493,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#download-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#download-1"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -502,7 +502,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#gift-box"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#gift-box"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -527,7 +527,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#download-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#download-1"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -564,7 +564,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#shopping-cart-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#shopping-cart-1"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -589,7 +589,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#upload-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#upload-2"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -598,7 +598,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#shopping-cart-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#shopping-cart-1"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -623,7 +623,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#upload-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#upload-2"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -660,7 +660,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#calendar"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#calendar"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -677,7 +677,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#eye"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#eye"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -686,7 +686,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#calendar"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#calendar"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -703,7 +703,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#checked"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#checked"></use>
                                         </svg>
                                     </div>
                                 </div>
@@ -712,7 +712,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#calendar"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#calendar"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -729,7 +729,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#access-denied"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#access-denied"></use>
                                         </svg>
                                     </div>
                                 </div>

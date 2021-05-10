@@ -7,7 +7,7 @@
                 <div class="card-header-user">
                     <div class="card-icon grey-blue">
                         <svg class="icon">
-                            <use xlink:href="#task-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#task-1"></use>
                         </svg>
                     </div>
                     <div class="co-panel-h">
@@ -46,7 +46,7 @@
                             <div class="card-header-user">
                                 <div class="card-icon bg-red">
                                     <svg class="icon">
-                                        <use xlink:href="#alert"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                                     </svg>
                                 </div>
                                 <div class="co-panel-h">
@@ -78,7 +78,7 @@
                             <div class="card-header-user">
                                 <div class="card-icon bg-green">
                                     <svg class="icon">
-                                        <use xlink:href="#cash-payment"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#cash-payment"></use>
                                     </svg>
                                 </div>
                                 <div class="co-panel-h">
@@ -110,7 +110,7 @@
                             <div class="card-header-user">
                                 <div class="card-icon bg-orange">
                                     <svg class="icon">
-                                        <use xlink:href="#calendar-3"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#calendar-3"></use>
                                     </svg>
                                 </div>
                                 <div class="co-panel-h">
@@ -144,7 +144,7 @@
                 <div class="card-header-user">
                     <div class="card-icon bg-green">
                         <svg class="icon">
-                            <use xlink:href="@/assets/svg-sprite.svg/#alert"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                         </svg>
                     </div>
                     <div class="co-panel-h">
@@ -156,7 +156,7 @@
                         <span class="ststc-h">Add Billing Methode</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -164,7 +164,7 @@
                         <span class="ststc-h">Upload your Image</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -172,7 +172,7 @@
                         <span class="ststc-h">Say somthing about you</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -180,7 +180,7 @@
                         <span class="ststc-h">Closed</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -188,7 +188,7 @@
                         <span class="ststc-h">Upload your Image</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -196,7 +196,7 @@
                         <span class="ststc-h">Say somthing about you</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -204,7 +204,7 @@
                         <span class="ststc-h">Closed</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -212,7 +212,7 @@
                         <span class="ststc-h">Closed</span>
                         <span class="info-not-icon">
                             <svg class="icon">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                             </svg>
                         </span>
                     </div>
@@ -226,7 +226,7 @@
                 <div class="card-header-user">
                     <div class="card-icon bg-blue">
                         <svg class="icon">
-                            <use xlink:href="#notes"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#notes"></use>
                         </svg>
                     </div>
                     <div class="co-panel-h">
@@ -256,7 +256,7 @@
                 <div class="card-header-user">
                     <div class="card-icon bg-blue">
                         <svg class="icon">
-                            <use xlink:href="#task-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#task-1"></use>
                         </svg>
                     </div>
                     <div class="co-panel-h">
@@ -277,7 +277,12 @@
 </template>
 <script>
 export default {
-
+    data: () => ({
+        mySvg: require('./assets/svg-sprite.svg')
+    }),
+    created() {
+        console.log(this.mySvg);
+    }
 };
 </script>
 <style></style>

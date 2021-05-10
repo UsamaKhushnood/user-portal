@@ -82,7 +82,7 @@
                                                 </select>
                                                 <div class="form-icon">
                                                     <svg class="icon">
-                                                        <use xlink:href="#mail"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#mail"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="select-dd-active">
@@ -102,7 +102,7 @@
                                                 </select>
                                                 <div class="form-icon">
                                                     <svg class="icon">
-                                                        <use xlink:href="#mail"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#mail"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="select-dd-active">
@@ -129,7 +129,7 @@
                                                 </select>
                                                 <div class="form-icon">
                                                     <svg class="icon">
-                                                        <use xlink:href="#mail"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#mail"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="select-dd-active">
@@ -145,7 +145,7 @@
                                                 <input class="form-control" placeholder="Date and Time" type="text">
                                                 <div class="form-icon">
                                                     <svg class="icon">
-                                                        <use xlink:href="#mail"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#mail"></use>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -155,7 +155,7 @@
                                                 <textarea class="form-control" placeholder="Decribe your project here..."></textarea>
                                                 <div class="form-icon">
                                                     <svg class="icon">
-                                                        <use xlink:href="#mail"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#mail"></use>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -186,7 +186,7 @@
                                                 <div class="doc-inner">
                                                     <div class="doc-file-svg">
                                                         <svg class="doc-file-icon">
-                                                            <use xlink:href="#file"></use>
+                                                            <use xlink:href="@/assets/svg-sprite.svg#file"></use>
                                                         </svg>
                                                     </div>
                                                     <div class="doc-det">
@@ -199,7 +199,7 @@
                                                 <div class="doc-inner">
                                                     <div class="doc-file-svg">
                                                         <svg class="doc-file-icon">
-                                                            <use xlink:href="#file"></use>
+                                                            <use xlink:href="@/assets/svg-sprite.svg#file"></use>
                                                         </svg>
                                                     </div>
                                                     <div class="doc-det">
@@ -212,7 +212,7 @@
                                                 <div class="doc-inner">
                                                     <div class="doc-file-svg">
                                                         <svg class="doc-file-icon">
-                                                            <use xlink:href="#file"></use>
+                                                            <use xlink:href="@/assets/svg-sprite.svg#file"></use>
                                                         </svg>
                                                     </div>
                                                     <div class="doc-det">
@@ -262,7 +262,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#warning-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#warning-2"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -289,7 +289,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#warning-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#warning-2"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -344,7 +344,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#warning-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#warning-2"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -361,7 +361,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#checked"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#checked"></use>
                                         </svg>
                                     </div>	
                                 </div>
@@ -370,7 +370,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#warning-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#warning-2"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -387,7 +387,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#checked"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#checked"></use>
                                         </svg>
                                     </div>	
                                 </div>
@@ -424,7 +424,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#warning-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#warning-2"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -441,7 +441,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#access-denied"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#access-denied"></use>
                                         </svg>
                                     </div>	
                                 </div>
@@ -450,7 +450,7 @@
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#warning-2"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#warning-2"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
@@ -467,7 +467,7 @@
                                     </div>
                                     <div class="task-ctnt-common task-det text-center task-icon-com">
                                         <svg class="">
-                                            <use xlink:href="#access-denied"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#access-denied"></use>
                                         </svg>
                                     </div>	
                                 </div>

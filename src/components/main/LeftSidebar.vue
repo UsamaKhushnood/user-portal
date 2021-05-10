@@ -12,28 +12,28 @@
             <li class="current">
               <router-link to="dashboard" tag="a">
                 <svg class="icon">
-                  <use xlink:to="#dashboard"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#dashboard"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link to="my-projects" tag="a">
                 <svg class="icon">
-                  <use xlink:to="#post-it-1"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="job-tasks">
                 <svg class="icon">
-                  <use xlink:to="#task"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="buy-services">
                 <svg class="icon">
-                  <use xlink:to="#discount"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#discount"></use>
                 </svg>
               </router-link>
             </li>
@@ -41,49 +41,49 @@
             <li>
               <router-link tag="a" to="job-portal">
                 <svg class="icon">
-                  <use xlink:to="#job-seeker"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#job-seeker"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="payments">
                 <svg class="icon">
-                  <use xlink:to="#payment-method"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#payment-method"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="warranty">
                 <svg class="icon">
-                  <use xlink:to="#secure"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#secure"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="appointment">
                 <svg class="icon">
-                  <use xlink:to="#job-interview"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#job-interview"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="reviews">
                 <svg class="icon">
-                  <use xlink:to="#rating"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#rating"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="support-help">
                 <svg class="icon">
-                  <use xlink:to="#support"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#support"></use>
                 </svg>
               </router-link>
             </li>
             <li>
               <router-link tag="a" to="reports">
                 <svg class="icon">
-                  <use xlink:to="#warning"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#warning"></use>
                 </svg>
               </router-link>
             </li>

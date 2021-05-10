@@ -99,7 +99,7 @@
                                             <div class="task-content">
                                                 <div class="task-ctnt-common task-icon">
                                                     <svg class="">
-                                                        <use xlink:href="#calendar-2"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#calendar-2"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="task-ctnt-common task-det">
@@ -148,7 +148,7 @@
                                             <div class="task-content">
                                                 <div class="task-ctnt-common task-icon">
                                                     <svg class="">
-                                                        <use xlink:href="#calendar-2"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#calendar-2"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="task-ctnt-common task-det">
@@ -241,7 +241,7 @@
                                                 </div>
                                                 <div class="task-ctnt-common task-det text-center task-icon-com">
                                                     <svg class="">
-                                                        <use xlink:href="#eye"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#eye"></use>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -286,7 +286,7 @@
                                                 </div>
                                                 <div class="task-ctnt-common task-det text-center task-icon-com">
                                                     <svg class="">
-                                                        <use xlink:href="#checked"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#checked"></use>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -331,7 +331,7 @@
                                                 </div>
                                                 <div class="task-ctnt-common task-det text-center task-icon-com">
                                                     <svg class="">
-                                                        <use xlink:href="#access-denied"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#access-denied"></use>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -404,7 +404,7 @@
                                                 </div>
                                                 <div class="task-ctnt-common task-det text-center task-icon-com">
                                                     <svg class="">
-                                                        <use xlink:href="#eye"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#eye"></use>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -449,7 +449,7 @@
                                                 </div>
                                                 <div class="task-ctnt-common task-det text-center task-icon-com">
                                                     <svg class="">
-                                                        <use xlink:href="#checked"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#checked"></use>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -494,7 +494,7 @@
                                                 </div>
                                                 <div class="task-ctnt-common task-det text-center task-icon-com">
                                                     <svg class="">
-                                                        <use xlink:href="#access-denied"></use>
+                                                        <use xlink:href="@/assets/svg-sprite.svg#access-denied"></use>
                                                     </svg>
                                                 </div>
                                             </div>

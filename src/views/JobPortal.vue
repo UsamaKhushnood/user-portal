@@ -86,7 +86,7 @@
                                 <div class="task-content ticket-prgs-common border-0">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">
-                                            <use xlink:href="#user-1"></use>
+                                            <use xlink:href="@/assets/svg-sprite.svg#user-1"></use>
                                         </svg>
                                     </div>
                                     <div class="task-ctnt-common task-det">
