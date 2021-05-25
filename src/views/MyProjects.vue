@@ -132,73 +132,29 @@
                   </div>
                 </div>
               </div>
+
+              <!-- jobs -->
+
               <div class="tab-content">
                 <div class="tab-pane show active">
-                  <div class="task-content-row">
+                  <div class="task-content-row" v-for="(job, jobIndex) in jobsListing" :key="jobIndex">
                     <div class="task-content ticket-prgs-common border-0">
                       <div class="tckt-t-w task-icon">
                         <svg class="icon">
-                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
+                          <use
+                            xlink:href="@/assets/svg-sprite.svg#post-it-1"
+                          ></use>
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">Jobs Title</span>
+                        <span class="stm-cont-h"> {{job.title}} </span>
                         <span
-                          >Project ID : Category – SubCatgeory Date and
-                          Time</span
+                          >Project ID : {{job.ProjectId}} – {{job.dateTime}}</span
                         >
                       </div>
                       <div class="task-ctnt-common task-det">
                         <span class="stm-cont-h">Proposals</span>
-                        <span>15</span>
-                      </div>
-                    </div>
-                    <a
-                      class="abs-link"
-                      href="http://ihannoveraner.de/service-user/view-proposals.php"
-                    ></a>
-                  </div>
-                  <div class="task-content-row">
-                    <div class="task-content ticket-prgs-common border-0">
-                      <div class="tckt-t-w task-icon">
-                        <svg class="">
-                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
-                        </svg>
-                      </div>
-                      <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">Jobs Title</span>
-                        <span
-                          >Project ID : Category – SubCatgeory Date and
-                          Time</span
-                        >
-                      </div>
-                      <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">Proposals</span>
-                        <span>15</span>
-                      </div>
-                    </div>
-                    <a
-                      class="abs-link"
-                      href="http://ihannoveraner.de/service-user/view-proposals.php"
-                    ></a>
-                  </div>
-                  <div class="task-content-row">
-                    <div class="task-content ticket-prgs-common border-0">
-                      <div class="tckt-t-w task-icon">
-                        <svg class="">
-                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
-                        </svg>
-                      </div>
-                      <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">Project Title</span>
-                        <span
-                          >Project ID : Category – SubCatgeory Date and
-                          Time</span
-                        >
-                      </div>
-                      <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">Proposals</span>
-                        <span>15</span>
+                        <span> {{job.proposals}} </span>
                       </div>
                     </div>
                     <a
@@ -1087,6 +1043,41 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      jobsListing: [
+        {
+          title: "Job ",
+          ProjectId: 7854,
+          Category: "category",
+          dateTime: "12/10/2021",
+          proposals: 54,
+        },
+        {
+          title: "Job title",
+          ProjectId: 123,
+          Category: "category",
+          dateTime: "12/10/2021",
+          proposals: 32,
+        },
+        {
+          title: "Job title",
+          ProjectId: 123,
+          Category: "category",
+          dateTime: "12/10/2021",
+          proposals: 15,
+        },
+        {
+          title: "Job title",
+          ProjectId: 123,
+          Category: "category",
+          dateTime: "12/10/2021",
+          proposals: 105,
+        },
+      ],
+    };
+  },
+};
 </script>
 <style lang="scss"></style>
