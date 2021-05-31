@@ -96,4 +96,8 @@
 <script>
 export default {};
 </script>
-<style></style>
+<style>
+  .mCustomScrollbar {
+    overflow: scroll;
+}
+</style>
