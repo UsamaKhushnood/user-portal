@@ -59,12 +59,12 @@
             </div>
         </div>
     </div>
-</div>
+</div> 
     </div>
 </template>
 <script>
-import ProjectWarranty from '@/components/my-projects/ProjectWarranty.vue';
-import ServicesWarranty from '@/components/my-projects/ServicesWarranty.vue';
+import ProjectWarranty from '@/components/warranty/ProjectWarranty.vue';
+import ServicesWarranty from '@/components/warranty/ServicesWarranty.vue';
 export default {
     components:{ProjectWarranty,ServicesWarranty}
   

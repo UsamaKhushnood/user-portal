@@ -456,12 +456,12 @@
   </div>
 </template>
 <script>
-import AllTasks from "@/components/my-projects/AllTasks";
-import NewProgress from "@/components/my-projects/NewProgress";
-import NewHold from "@/components/my-projects/NewHold";
-import NewDone from "@/components/my-projects/NewDone";
-import NewCheck from "@/components/my-projects/NewCheck";
-import NewRejected from "@/components/my-projects/NewRejected";
+import AllTasks from "@/components/job-tasks/AllTasks";
+import NewProgress from "@/components/job-tasks/NewProgress";
+import NewHold from "@/components/job-tasks/NewHold";
+import NewDone from "@/components/job-tasks/NewDone";
+import NewCheck from "@/components/job-tasks/NewCheck";
+import NewRejected from "@/components/job-tasks/NewRejected";
 export default {
   components:{AllTasks,NewProgress,NewHold,NewDone,NewCheck,NewRejected},
  

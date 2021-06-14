@@ -151,11 +151,11 @@
 <script>
 import ProjectOffer from "@/components/my-projects/ProjectOffer.vue";
 import MyContract from "@/components/my-projects/MyContract.vue";
-import InProgress from "@/components/my-projects/InDone.vue";
-import InDone from "@/components/my-projects/InProgress.vue";
+import InProgress from "@/components/my-projects/InProgress.vue";
+import InDone from "@/components/my-projects/InDone.vue";
 import InFaild from "@/components/my-projects/InFaild.vue";
 import InDispute from "@/components/my-projects/InDispute.vue";
-import InCanceled from "@/components/my-projects/InDispute.vue";
+import InCanceled from "@/components/my-projects/InCanceled.vue";
 export default {
   components: { ProjectOffer,MyContract,InProgress,InDone,InFaild,InDispute,InCanceled },
 };

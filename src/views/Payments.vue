@@ -74,16 +74,16 @@
             <div class="row t-container tab-pane" id="tab-2-4"  :class="[{ active: $route.hash === '#tab-2-4' }]">
                 <Transaction/>
             </div>
-        </div>
+        </div> 
     </div>
 </div>
     </div>
 </template>
 <script>
-import OnMilestone from '@/components/my-projects/OnMilestone.vue';
-import ReleaseRequests from '@/components/my-projects/ReleaseRequests.vue';
-import RefundRequests from '@/components/my-projects/RefundRequests.vue';
-import Transaction from '@/components/my-projects/Transaction.vue';
+import OnMilestone from '@/components/payments/OnMilestone.vue';
+import ReleaseRequests from '@/components/payments/ReleaseRequests.vue';
+import RefundRequests from '@/components/payments/RefundRequests.vue';
+import Transaction from '@/components/payments/Transaction.vue';
 export default {
   components: { OnMilestone,ReleaseRequests,RefundRequests,Transaction },
    

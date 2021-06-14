@@ -75,7 +75,7 @@
     </div>
 </template>
 <script>
-import SearchJob from'@/components/my-projects/SearchJob';
+import SearchJob from'@/components/job-portals/SearchJob';
 export default {
     components:{
         SearchJob}

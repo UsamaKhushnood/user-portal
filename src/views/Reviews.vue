@@ -64,11 +64,11 @@
             
         </div>
     </div>
-</div>
+</div> 
     </div>
 </template>
 <script>
-import AllReviews from'@/components/my-projects/AllReviews.vue';
+import AllReviews from'@/components/reviews/AllReviews.vue';
 export default {
     components:{AllReviews}
     

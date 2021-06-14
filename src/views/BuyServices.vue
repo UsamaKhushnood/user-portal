@@ -97,12 +97,12 @@
 </div>
     </div>
 </template>
-<script>
-import NewServices from '@/components/my-projects/NewServices';
-import MyPurchase from '@/components/my-projects/MyPurchase';
-import MyGifts from '@/components/my-projects/MyGifts';
-import Recieved from '@/components/my-projects/Recieved';
-import Sent from '@/components/my-projects/Sent';
+<script> 
+import NewServices from '@/components/buy-services/NewServices';
+import MyPurchase from '@/components/buy-services/MyPurchase';
+import MyGifts from '@/components/buy-services/MyGifts';
+import Recieved from '@/components/buy-services/Recieved';
+import Sent from '@/components/buy-services/Sent';
 
 export default {
     components: { NewServices,

@@ -51,9 +51,9 @@
     </div>
 </template>
 <script>
-import PortalsAlerts from "@/components/my-projects/PortalsAlerts.vue";
-import AccountAlerts from "@/components/my-projects/AccountAlerts.vue";
-import SendingReports from "@/components/my-projects/SendingReports.vue";
+import PortalsAlerts from "@/components/reports/PortalsAlerts.vue";
+import AccountAlerts from "@/components/reports/AccountAlerts.vue";
+import SendingReports from "@/components/reports/SendingReports.vue";
 export default {
     components:{PortalsAlerts,AccountAlerts,SendingReports}
     

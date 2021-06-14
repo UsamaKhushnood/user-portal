@@ -62,9 +62,8 @@
             <span class="c-red">45</span>
         </div>
     </div>
-</div>	
-  			   				  		
-						        </div>
+</div>	  			   				  		
+	</div>
         <div class="col col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 tab-content tab-content-nbg">
             <div class="row t-container tab-pane show " id="tab-2-1" :class="[{ active: $route.hash === '' }]">
                 <NewJob/>
@@ -85,19 +84,14 @@
     </div>
 </div>
     </div>
-</template>
+</template> 
 <script>
-import NewJob from '@/components/my-projects/NewJob.vue';
-import NewAppointment from '@/components/my-projects/NewAppointment.vue';
-import AcceptedAppointment from '@/components/my-projects/AcceptedAppointment.vue';
-import DeniedAppointment from '@/components/my-projects/DeniedAppointment.vue';
-import CancelledAppointment from '@/components/my-projects/CancelledAppointment.vue';
+import NewJob from '@/components/appointment/NewJob.vue';
+import NewAppointment from '@/components/appointment/NewAppointment.vue';
+import AcceptedAppointment from '@/components/appointment/AcceptedAppointment.vue';
+import DeniedAppointment from '@/components/appointment/DeniedAppointment.vue';
+import CancelledAppointment from '@/components/appointment/CancelledAppointment.vue';
 export default {
     components:{NewJob,NewAppointment,AcceptedAppointment,DeniedAppointment,CancelledAppointment}
-   
-
 }
 </script>
-<style lang="scss">
-    
-</style>

@@ -79,10 +79,10 @@
     </div>
 </template>
 <script>
-import CreateTicket from "@/components/my-projects/CreateTicket.vue";
-import TicketProgress from "@/components/my-projects/TicketProgress.vue";
-import SolvedTicket from "@/components/my-projects/SolvedTicket.vue";
-import ClosedTickets from "@/components/my-projects/ClosedTickets.vue";
+import CreateTicket from "@/components/support-help/CreateTicket.vue";
+import TicketProgress from "@/components/support-help/TicketProgress.vue";
+import SolvedTicket from "@/components/support-help/SolvedTicket.vue";
+import ClosedTickets from "@/components/support-help/ClosedTickets.vue";
 export default {
     components:{CreateTicket,TicketProgress,SolvedTicket,ClosedTickets}
     
