@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="task-content-row">
+                            <div class="task-content-row"> 
                                 <div class="task-content ticket-prgs-common">
                                     <div class="tckt-t-w task-icon">
                                         <svg class="">

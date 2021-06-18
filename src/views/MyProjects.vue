@@ -156,8 +156,9 @@ import InDone from "@/components/my-projects/InDone.vue";
 import InFaild from "@/components/my-projects/InFaild.vue";
 import InDispute from "@/components/my-projects/InDispute.vue";
 import InCanceled from "@/components/my-projects/InCanceled.vue";
+
 export default {
-  components: { ProjectOffer,MyContract,InProgress,InDone,InFaild,InDispute,InCanceled },
+  components: { ProjectOffer,MyContract,InProgress,InDone,InFaild,InDispute,InCanceled, ProjectOffer },
 };
 </script>
 <style lang="scss"></style>
