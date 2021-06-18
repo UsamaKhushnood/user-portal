@@ -3768,7 +3768,7 @@ img {
     background-color: #fff;
     border-radius: 5px;
     border: 1px solid #e6ecf5;
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
 }
 
 .ui-block .ui-block-title:last-child {
@@ -7821,8 +7821,8 @@ body.body--fixed {
 
 .icon-close {
     position: absolute;
-    top: -14px;
-    right: -25px;
+    top: 0;
+    right: -10px;
     color: #ff5e3a;
     fill: #ff5e3a;
 }
