@@ -10,10 +10,10 @@
       <template #default="{ close }">
         <div class="modal-content">
           <a
-            href="#"
             class="close icon-close"
             data-dismiss="modal"
             aria-label="Close"
+            style="cursor: pointer"
           >
             <svg class="olymp-close-icon" viewBox="0 0 32 32" @click="close()">
               <title>close-icon</title>
@@ -247,8 +247,10 @@
                         class="cmn-title-ad-upld pop-over crsr-pntr"
                         data-toggle="modal"
                         data-target="#upload-files"
+                        v-b-modal="'upload-new-file'"
                       >
                         + Upload new Files
+                        <UploadNewFilesModal></UploadNewFilesModal>
                       </div>
                     </div>
                     <div class="pd-fls-container">
@@ -644,7 +646,9 @@
   </div>
 </template>
 <script>
+import UploadNewFilesModal from "./UploadNewFilesModal";
 export default {
+  components: { UploadNewFilesModal },
   props: ["jobIndex"],
 };
 </script>
