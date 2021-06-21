@@ -93,7 +93,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 btn-files-container">
+              <div class="col-12 btn-files-container" style="overflow: hidden">
                 <div class="row">
                   <button class="btn btn-primary btn-files-pop">
                     Upload and Close

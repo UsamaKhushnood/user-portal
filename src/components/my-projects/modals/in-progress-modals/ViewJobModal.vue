@@ -312,8 +312,10 @@
                         class="cmn-title-ad-upld pop-over crsr-pntr"
                         data-toggle="modal"
                         data-target="#add-task"
+                        v-b-modal="'add-new-task'"
                       >
                         + Add new Task
+                        <AddNewTask></AddNewTask>
                       </div>
                     </div>
                     <div class="pt-mlstn-container">
@@ -325,12 +327,12 @@
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
                           <span class="pt-mlstn-h">Jobs Title</span>
-                          <span>Project ID : Category – SubCatgeory</span>
+                          <span>{{ jobIndex }} : {{category}} – {{ sub_category }}</span>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det text-center">
                           <span class="pt-mlstn-h">Tasks</span>
                           <span class="c-green"
-                            ><font class="c-red">4</font> / 3</span
+                            >{{ task }}</span
                           >
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det text-center">
@@ -377,12 +379,16 @@
                         </div>
                       </div>
                     </div>
-                    <div class="pt-mlstn-container pt-mlstn-request-container">
+                    <div
+                      class="pt-mlstn-container pt-mlstn-request-container"
+                    >
                       <div
                         class="
                           pt-mlstn-col pt-mlstn-request-col pt-mlstn-align-col
                           no-b
                         "
+                        v-for="(projectTask, projectTaskIndex) in projectTasks"
+                      :key="projectTaskIndex"
                       >
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
@@ -391,19 +397,19 @@
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
                           <span class="pt-mlstn-h">Task Title</span>
-                          <span class="">Project Title</span>
+                          <span class="">{{ projectTask.taskTitle }}</span>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
                           <span class="pt-mlstn-h">Doing by</span>
-                          <span class="">Employee Name</span>
+                          <span class="">{{ projectTask.doingBy }}</span>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
                           <span class="pt-mlstn-h">Status</span>
-                          <span class="c-green">Done</span>
+                          <span class="c-green">{{ projectTask.status }}</span>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
                           <span class="pt-mlstn-h">Action</span>
-                          <span class="c-green">Need to Check</span>
+                          <span class="c-green">{{ projectTask.action }}</span>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-view">
                           <a
@@ -411,84 +417,17 @@
                             class="pop-over crsr-pntr"
                             data-toggle="modal"
                             data-target="#task-view"
-                            >View</a
+                            v-b-modal="'view-task' + projectTaskIndex"
+                            >View
+                            <ViewNewTask :projectTaskIndex="projectTaskIndex"
+                            :jobIndex="jobIndex" :category="category"
+                            :sub_category="sub_category"
+                            :task="task"></ViewNewTask>
+                            </a
                           >
                         </div>
                       </div>
-                      <div
-                        class="
-                          pt-mlstn-col pt-mlstn-request-col pt-mlstn-align-col
-                          no-b
-                        "
-                      >
-                        <div class="pt-mlstn-common pt-mlstn-icon">
-                          <svg class="">
-                            <use xlink:href="#completed-task"></use>
-                          </svg>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Task Title</span>
-                          <span class="">Project Title</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Doing by</span>
-                          <span class="">Employee Name</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Status</span>
-                          <span class="c-red">In Stop</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Action</span>
-                          <span class="c-green">Need to Check</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-view">
-                          <a
-                            href="#"
-                            class="pop-over crsr-pntr"
-                            data-toggle="modal"
-                            data-target="#task-view"
-                            >View</a
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="
-                          pt-mlstn-col pt-mlstn-request-col pt-mlstn-align-col
-                          no-b
-                        "
-                      >
-                        <div class="pt-mlstn-common pt-mlstn-icon">
-                          <svg class="">
-                            <use xlink:href="#completed-task"></use>
-                          </svg>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Task Title</span>
-                          <span class="">Project Title</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Doing by</span>
-                          <span class="">Employee Name</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Status</span>
-                          <span class="c-orange">In Pause</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-det">
-                          <span class="pt-mlstn-h">Action</span>
-                          <span class="c-green">Need to Check</span>
-                        </div>
-                        <div class="pt-mlstn-common pt-mlstn-view">
-                          <a
-                            href="#"
-                            class="pop-over crsr-pntr"
-                            data-toggle="modal"
-                            data-target="#task-view"
-                            >View</a
-                          >
-                        </div>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -502,8 +441,10 @@
                         class="cmn-title-ad-upld pop-over crsr-pntr"
                         data-toggle="modal"
                         data-target="#add-milestone"
+                        v-b-modal="'add-new-milestone'"
                       >
                         + Add new Milestone
+                        <AddNewMilestoneModal></AddNewMilestoneModal>
                       </div>
                     </div>
                     <div class="pt-mlstn-container">
@@ -647,8 +588,39 @@
 </template>
 <script>
 import UploadNewFilesModal from "./UploadNewFilesModal";
+import AddNewTask from "./AddNewTask";
+import ViewNewTask from "./ViewNewTask";
+import AddNewMilestoneModal from "./AddNewMilestoneModal"
 export default {
-  components: { UploadNewFilesModal },
-  props: ["jobIndex"],
+  components: { UploadNewFilesModal, AddNewTask, ViewNewTask, AddNewMilestoneModal },
+  props: ["jobIndex",
+          "category",
+          "sub_category",
+          "task"
+  ],
+  data(){
+    return{
+      projectTasks: [
+        {
+          taskTitle: 'Project Title',
+          doingBy: 'Employee Name',
+          status: 'Done',
+          action: 'Need to check'
+        },
+                {
+          taskTitle: 'Project Title',
+          doingBy: 'Employee Name',
+          status: 'In Stop',
+          action: 'Need to check'
+        },
+                {
+          taskTitle: 'Project Title',
+          doingBy: 'Employee Name',
+          status: 'In Pause',
+          action: 'Need to check'
+        }
+      ]
+    }
+  }
 };
 </script>

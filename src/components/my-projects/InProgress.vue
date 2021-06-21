@@ -83,7 +83,7 @@
       </div>
 
       <!--View Job Modal -->
-      <ViewJobModal :jobIndex="jobIndex"> </ViewJobModal>
+      <ViewJobModal :jobIndex="jobIndex" :category="job.category" :sub_category="job.sub_category" :task="job.task"> </ViewJobModal>
     </div>
   </div>
 </template>

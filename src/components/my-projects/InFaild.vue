@@ -52,7 +52,8 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-content">
+              <div class="tab-content"
+              v-for="(job, projectIndex) in jobsList" :key="projectIndex">
                 <div class="tab-pane show active">
                   <div
                     class="task-content-row pop-over"
@@ -70,36 +71,79 @@
                         />
                       </div>
                       <div class="tckt-t-w">
-                        <span><b>Jobs Title</b></span>
-                        <span>Project ID</span>
+                        <span><b>{{ job.title }}</b></span>
+                        <span>Project ID: {{ projectIndex }}</span>
                       </div>
                       <div class="tckt-t-w">
                         <span><b>Tasks</b></span>
                         <span class="c-green"
-                          ><font class="c-red">4</font> / 3</span
+                          >{{ job.task }}</span
                         >
                       </div>
                       <div class="tckt-t-w">
                         <span><b>Milestone</b></span>
                         <span class="c-green"
-                          ><font class="c-red">3</font> / 2</span
+                          >{{ job.milestone }}</span
                         >
                       </div>
                       <div class="tckt-t-w">
                         <span><b>Status</b></span>
-                        <span class="c-orange">In Hold</span>
+                        <span class="c-orange">{{ job.status }}</span>
                       </div>
                       <div class="tckt-t-w tckt-ans-btn">
-                        <button class="btn btn-lg btn-green">1 Answer</button>
+                        <button class="btn btn-lg btn-green"
+                        v-b-modal="'view-answer' + projectIndex">1 Answer
+                          <ViewAnswerModal :job="projectIndex"></ViewAnswerModal>
+                        </button>
                       </div>
                     </div>
                     <div class="stm-abt-tckt c-red">
-                      <span>Ticket ID: 1234556</span>
-                      <span>Ticket Reason: Work not completed</span>
-                      <span>Claimed by: User</span>
+                      <span>Ticket ID: {{ job.ticketId }}</span>
+                      <span>Ticket Reason: {{ job.ticketReason }}</span>
+                      <span>Claimed by: {{ job.claimedBy }}</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 </template>
+
+<script>
+import ViewAnswerModal from "./modals/in-failed-modals/ViewAnswerModal"
+export default {
+  components: { ViewAnswerModal },
+  data(){
+    return {
+      jobsList: [
+        {
+          title: "Jobs Title",
+          task: "4/3",
+          milestone: "3/2",
+          status: "In Hold",
+          ticketId: "1234556",
+          ticketReason: "Work Not Completed",
+          claimedBy: "User"
+        },
+        {
+          title: "Jobs Title",
+          task: "4/3",
+          milestone: "3/2",
+          status: "In Hold",
+          ticketId: "1234556",
+          ticketReason: "Work Not Completed",
+          claimedBy: "User"
+        },
+        {
+          title: "Jobs Title",
+          task: "4/3",
+          milestone: "3/2",
+          status: "In Hold",
+          ticketId: "1234556",
+          ticketReason: "Work Not Completed",
+          claimedBy: "User"
+        }
+      ]
+    }
+  }
+}
+</script>
