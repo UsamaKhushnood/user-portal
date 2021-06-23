@@ -61,6 +61,8 @@
                     aria-label="Close"
                     data-toggle="modal"
                     data-target="#tsk-v-in-hold"
+                    v-b-modal="'view-in-hold' + taskIndex"
+                    v-for="(task, taskIndex) in tasks" :key="taskIndex"
                   >
                     <div class="task-content ticket-prgs-common">
                       <div class="tckt-t-w task-icon">
@@ -69,16 +71,16 @@
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">1. Task Title</span>
-                        <span>Project Title</span>
+                        <span class="stm-cont-h">{{ taskIndex }}. {{ task.title }}</span>
+                        <span>{{ task.projectTitle }}</span>
                       </div>
                       <div class="task-ctnt-common task-det text-center">
                         <span class="stm-cont-h">Status</span>
-                        <span class="c-red">In Hold</span>
+                        <span class="c-red">{{ task.status }}</span>
                       </div>
                       <div class="task-ctnt-common task-det text-center">
                         <span class="stm-cont-h">Last Update</span>
-                        <span>12.12.2020 – 19:00</span>
+                        <span>{{ task.lastUpdated }}</span>
                       </div>
                       <div
                         class="task-ctnt-common task-det text-center tsk-more-det"
@@ -88,48 +90,41 @@
                     </div>
                     <div class="stm-abt-tckt c-red">
                       <span class="text-center"
-                        >Reason: Work not completed</span
+                        >Reason: {{ task.reason }}</span
                       >
                     </div>
+                    <ViewInHoldModal :taskIndex="taskIndex"></ViewInHoldModal>
                   </div>
-                  <div
-                    class="task-content-row crsr-pntr pop-over"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                    data-toggle="modal"
-                    data-target="#tsk-v-in-hold"
-                  >
-                    <div class="task-content ticket-prgs-common">
-                      <div class="tckt-t-w task-icon">
-                        <svg class="">
-                          <use xlink:href="@/assets/svg-sprite.svg#task"></use>
-                        </svg>
-                      </div>
-                      <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">1. Task Title</span>
-                        <span>Project Title</span>
-                      </div>
-                      <div class="task-ctnt-common task-det text-center">
-                        <span class="stm-cont-h">Status</span>
-                        <span class="c-red">In Hold</span>
-                      </div>
-                      <div class="task-ctnt-common task-det text-center">
-                        <span class="stm-cont-h">Last Update</span>
-                        <span>12.12.2020 – 19:00</span>
-                      </div>
-                      <div
-                        class="task-ctnt-common task-det text-center tsk-more-det"
-                      >
-                        <a href="#">More Details</a>
-                      </div>
-                    </div>
-                    <div class="stm-abt-tckt c-red">
-                      <span class="text-center"
-                        >Reason: Work not completed</span
-                      >
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
 </template>
+
+<script>
+import ViewInHoldModal from "./modals/in-hold-modals/ViewInHoldModal"
+export default {
+  components: { ViewInHoldModal },
+  data(){
+    return {
+      tasks: [
+        {
+          title: "Task Title",
+          projectTitle: "Project Title",
+          status: "In Hold",
+          lastUpdated: "12.12.2020 – 19:00",
+          reason: "Work Not Completed"
+        },
+                {
+          title: "Task Title",
+          projectTitle: "Project Title",
+          status: "In Hold",
+          lastUpdated: "12.12.2020 – 19:00",
+          reason: "Work Not Completed"
+        }
+      ]
+    }
+  }
+  
+}
+</script>

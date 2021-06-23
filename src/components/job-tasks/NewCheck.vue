@@ -60,6 +60,8 @@
                     aria-label="Close"
                     data-toggle="modal"
                     data-target="#tsk-v-in-done"
+                    v-b-modal="'view-in-check' + taskIndex"
+                    v-for="(task, taskIndex) in tasks" :key="taskIndex"
                   >
                     <div class="task-content ticket-prgs-common no-border">
                       <div class="tckt-t-w task-icon">
@@ -68,16 +70,16 @@
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">1. Task Title</span>
-                        <span>Project Title</span>
+                        <span class="stm-cont-h">{{ taskIndex }}. {{ task.title }}</span>
+                        <span>{{ task.projectTitle }}</span>
                       </div>
                       <div class="task-ctnt-common task-det text-center">
                         <span class="stm-cont-h">Status</span>
-                        <span class="c-green">In Done</span>
+                        <span class="c-green">{{ task.status }}</span>
                       </div>
                       <div class="task-ctnt-common task-det text-center">
                         <span class="stm-cont-h">Started Date</span>
-                        <span>12.12.2020 – 20:00</span>
+                        <span>{{ task.startedDate }}</span>
                       </div>
                       <div
                         class="task-ctnt-common task-det text-center tsk-more-det"
@@ -85,40 +87,45 @@
                         <a href="#">More Details</a>
                       </div>
                     </div>
+                    <ViewInCheckModal :taskIndex="taskIndex"></ViewInCheckModal>
                   </div>
-                  <div
-                    class="task-content-row crsr-pntr pop-over"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                    data-toggle="modal"
-                    data-target="#tsk-v-in-done"
-                  >
-                    <div class="task-content ticket-prgs-common no-border">
-                      <div class="tckt-t-w task-icon">
-                        <svg class="">
-                          <use xlink:href="@/assets/svg-sprite.svg#task"></use>
-                        </svg>
-                      </div>
-                      <div class="task-ctnt-common task-det">
-                        <span class="stm-cont-h">1. Task Title</span>
-                        <span>Project Title</span>
-                      </div>
-                      <div class="task-ctnt-common task-det text-center">
-                        <span class="stm-cont-h">Status</span>
-                        <span class="c-green">In Done</span>
-                      </div>
-                      <div class="task-ctnt-common task-det text-center">
-                        <span class="stm-cont-h">Started Date</span>
-                        <span>12.12.2020 – 20:00</span>
-                      </div>
-                      <div
-                        class="task-ctnt-common task-det text-center tsk-more-det"
-                      >
-                        <a href="#">More Details</a>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
 </template>
+
+<script>
+import ViewInCheckModal from "./modals/in-check-modals/ViewInCheckModal"
+export default {
+  components: { ViewInCheckModal },
+  data(){
+    return {
+      tasks: [
+        {
+          title: "Task Title",
+          projectTitle: "Project Title",
+          status: "In Done",
+          startedDate: "12.12.2020 – 20:00"
+
+        },
+        {
+          title: "Task Title",
+          projectTitle: "Project Title",
+          status: "In Done",
+          startedDate: "12.12.2020 – 20:00"
+
+        },
+        {
+          title: "Task Title",
+          projectTitle: "Project Title",
+          status: "In Done",
+          startedDate: "12.12.2020 – 20:00"
+
+        }
+      ]
+    }
+  }
+  
+}
+</script>

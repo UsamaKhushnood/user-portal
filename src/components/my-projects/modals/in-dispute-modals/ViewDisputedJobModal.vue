@@ -2,7 +2,6 @@
   <div>
     <b-modal
       :id="'view-disputed-job' + job"
-      title="view-contract"
       size="xl"
       hide-header
       hide-footer

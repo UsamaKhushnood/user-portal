@@ -442,10 +442,10 @@
           <NewHold/>
           </div>
           <div class="row t-container tab-pane" id="tab-2-4" :class="[{ active: $route.hash === '#tab-2-4' }]">
-            <NewDone/>
+            <NewCheck/>
           </div>
           <div class="row t-container tab-pane" id="tab-2-5" :class="[{ active: $route.hash === '#tab-2-5' }]">
-           <NewCheck/>
+          <NewDone/> 
           </div>
           <div class="row t-container tab-pane" id="tab-2-6" :class="[{ active: $route.hash === '#tab-2-6' }]">
            <NewRejected/>
