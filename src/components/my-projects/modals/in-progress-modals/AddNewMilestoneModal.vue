@@ -8,7 +8,7 @@
     <template #default="{ close }">
         <div class="modal-content">
             <a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
-				<svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon" @click="close()"></use></svg>
+				<svg class="olymp-close-icon"><use xlink:href="@/assets/svg-sprite.svg#olymp-close-icon" @click="close()"></use></svg>
             </a>
             <div class="ui-block">
                 <div class="ui-block-title">
@@ -29,7 +29,7 @@
                                         <input class="form-control" placeholder="Add Amount" type="text">
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#alert"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                                             </svg>
                                         </div>
                                     </div>
@@ -42,7 +42,7 @@
                                         <input class="form-control" placeholder="Release Date" type="text">
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#calendar-4"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#calendar-4"></use>
                                             </svg>
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@
                                         <input class="form-control" placeholder="Delivery Date" type="text">
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#calendar-4"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#calendar-4"></use>
                                             </svg>
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@
                             <div class="rel-date-error mt-4">
                                 <span>
                                     <svg class="v-rating-svg">
-                                        <use xlink:href="#warning"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#warning"></use>
                                     </svg>
                                     Milestone will be not released by selected Date
                                 </span>
@@ -74,7 +74,7 @@
                                         <textarea class="form-control" placeholder="Milestone Descr."></textarea>
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#alert"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                                             </svg>
                                         </div>
                                         <span class="material-input"></span>

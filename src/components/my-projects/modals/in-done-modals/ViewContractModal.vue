@@ -42,7 +42,7 @@
           <form class="custom-form row l-print-form">
             <div class="l-print-btn">
               <svg class="">
-                <use xlink:href="#printer"></use>
+                <use xlink:href="@/assets/svg-sprite.svg#printer"></use>
               </svg>
             </div>
             <div class="col-12">
@@ -446,7 +446,7 @@
                           data-progress="0"
                         >
                           <svg>
-                            <use xlink:href="#fb-emote-terrible"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#fb-emote-terrible"></use>
                           </svg>
                           <p class="fb-emote__caption">Terrible</p>
                         </div>
@@ -456,7 +456,7 @@
                           data-progress="0.25"
                         >
                           <svg>
-                            <use xlink:href="#fb-emote-bad"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#fb-emote-bad"></use>
                           </svg>
                           <p class="fb-emote__caption">Bad</p>
                         </div>
@@ -466,7 +466,7 @@
                           data-progress="0.5"
                         >
                           <svg>
-                            <use xlink:href="#fb-emote-okay"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#fb-emote-okay"></use>
                           </svg>
                           <p class="fb-emote__caption">Okay</p>
                         </div>
@@ -476,7 +476,7 @@
                           data-progress="0.75"
                         >
                           <svg>
-                            <use xlink:href="#fb-emote-good"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#fb-emote-good"></use>
                           </svg>
                           <p class="fb-emote__caption">Good</p>
                         </div>
@@ -486,7 +486,7 @@
                           data-progress="1"
                         >
                           <svg>
-                            <use xlink:href="#fb-emote-great"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#fb-emote-great"></use>
                           </svg>
                           <p class="fb-emote__caption">Great</p>
                         </div>

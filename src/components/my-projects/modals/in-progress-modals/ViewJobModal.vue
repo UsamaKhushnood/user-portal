@@ -34,7 +34,7 @@
               </div>
               <div class="my-ctrt-project">
                 <svg class="">
-                  <use xlink:href="#printer"></use>
+                  <use xlink:href="@/assets/svg-sprite.svg#printer"></use>
                 </svg>
               </div>
             </div>
@@ -258,7 +258,7 @@
                         <div class="pd-fls-inner">
                           <div class="pd-flsi-cmn pd-flsi-cmn-icon">
                             <svg class="">
-                              <use xlink:href="#word"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#word"></use>
                             </svg>
                           </div>
                           <div class="pd-flsi-cmn pd-flsi-cmn-detail">
@@ -273,7 +273,7 @@
                         <div class="pd-fls-inner">
                           <div class="pd-flsi-cmn pd-flsi-cmn-icon">
                             <svg class="">
-                              <use xlink:href="#word"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#word"></use>
                             </svg>
                           </div>
                           <div class="pd-flsi-cmn pd-flsi-cmn-detail">
@@ -288,7 +288,7 @@
                         <div class="pd-fls-inner">
                           <div class="pd-flsi-cmn pd-flsi-cmn-icon">
                             <svg class="">
-                              <use xlink:href="#word"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#word"></use>
                             </svg>
                           </div>
                           <div class="pd-flsi-cmn pd-flsi-cmn-detail">
@@ -322,7 +322,7 @@
                       <div class="pt-mlstn-col">
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#task"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -392,7 +392,7 @@
                       >
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#completed-task"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#completed-task"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -451,7 +451,7 @@
                       <div class="pt-mlstn-col">
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#calendar-2"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#calendar-2"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -485,7 +485,7 @@
                       >
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#payment-method"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#payment-method"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -516,7 +516,7 @@
                       >
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#payment-method"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#payment-method"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -547,7 +547,7 @@
                       >
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#payment-method"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#payment-method"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -570,7 +570,7 @@
                           class="pt-mlstn-common pt-mlstn-icon pt-mlstn-icon-sm"
                         >
                           <svg class="">
-                            <use xlink:href="#file"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#file"></use>
                           </svg>
                         </div>
                       </div>

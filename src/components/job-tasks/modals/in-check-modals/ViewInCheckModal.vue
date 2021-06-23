@@ -37,7 +37,7 @@
                       <div class="pt-mlstn-col no-b">
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#task"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -99,7 +99,7 @@
                         <div class="pro-hold">
                           <div class="pro-hold-icon">
                             <svg class="">
-                              <use xlink:href="#alarm"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#alarm"></use>
                             </svg>
                           </div>
                           <div class="pro-common-txt c-green">
@@ -113,7 +113,7 @@
                         <div class="task-view-c-header">
                           <div class="pt-mlstn-common tsk-vw-icon">
                             <svg class="">
-                              <use xlink:href="#completed-task"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#completed-task"></use>
                             </svg>
                           </div>
                           <div class="pt-mlstn-common pt-mlstn-det">
@@ -138,7 +138,7 @@
                             <div class="view-c-d">
                               <span>3</span>
                               <svg class="">
-                                <use xlink:href="#document"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#document"></use>
                               </svg>
                             </div>
                             <a href="#" class="tsk-vw">View</a>
@@ -211,7 +211,7 @@
                             connected to the chatSystem as well
                             <a href="#" class="chat-svg">
                               <svg class="">
-                                <use xlink:href="#chat-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#chat-2"></use>
                               </svg>
                             </a>
                           </div>
@@ -223,7 +223,7 @@
                             can follow
                             <a href="#" class="send-svg">
                               <svg class="">
-                                <use xlink:href="#alert"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                               </svg>
                             </a>
                           </div>

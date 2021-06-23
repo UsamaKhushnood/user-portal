@@ -37,7 +37,7 @@
                       <div class="pt-mlstn-col no-b">
                         <div class="pt-mlstn-common pt-mlstn-icon">
                           <svg class="">
-                            <use xlink:href="#task"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                           </svg>
                         </div>
                         <div class="pt-mlstn-common pt-mlstn-det">
@@ -82,7 +82,7 @@
                         <div class="task-view-c-header">
                           <div class="pt-mlstn-common tsk-vw-icon">
                             <svg class="">
-                              <use xlink:href="#completed-task"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#completed-task"></use>
                             </svg>
                           </div>
                           <div class="pt-mlstn-common pt-mlstn-det">

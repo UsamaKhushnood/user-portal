@@ -45,7 +45,7 @@
                     </div>-->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#tab-2-5">My Appointments</a>
+                    <a class="nav-link" data-toggle="tab" href="#tab-2-6">My Appointments</a>
                 </li>
             </ul>
         </div>
@@ -92,6 +92,9 @@
             <div class="row t-container tab-pane" id="tab-2-5"  :class="[{ active: $route.hash === '#tab-2-5' }]">
                 <Sent/>
             </div>
+            <div class="row t-container tab-pane" id="tab-2-6"  :class="[{ active: $route.hash === '#tab-2-6' }]">
+                <MyAppointments/>
+            </div>
         </div>
     </div>
 </div>
@@ -103,13 +106,15 @@ import MyPurchase from '@/components/buy-services/MyPurchase';
 import MyGifts from '@/components/buy-services/MyGifts';
 import Recieved from '@/components/buy-services/Recieved';
 import Sent from '@/components/buy-services/Sent';
+import MyAppointments from "@/components/buy-services/MyAppointments";
 
 export default {
     components: { NewServices,
     MyPurchase,
     MyGifts,
     Recieved,
-    Sent },
+    Sent,
+    MyAppointments },
     
 
     

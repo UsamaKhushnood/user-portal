@@ -10,7 +10,7 @@
             style="cursor: pointer"
           >
             <svg class="olymp-close-icon">
-              <use xlink:href="#olymp-close-icon" @click="close()"></use>
+              <use xlink:href="@/assets/svg-sprite.svg#olymp-close-icon" @click="close()"></use>
             </svg>
           </a>
           <div class="ui-block">
@@ -69,7 +69,7 @@
                         />
                         <div class="form-icon">
                           <svg class="v-rating-svg">
-                            <use xlink:href="#alert"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                           </svg>
                         </div>
                         <span class="material-input"></span>
@@ -84,7 +84,7 @@
                         ></textarea>
                         <div class="form-icon">
                           <svg class="v-rating-svg">
-                            <use xlink:href="#alert"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                           </svg>
                         </div>
                         <span class="material-input"></span>

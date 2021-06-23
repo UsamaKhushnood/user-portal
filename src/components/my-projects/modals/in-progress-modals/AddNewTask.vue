@@ -9,7 +9,7 @@
           aria-label="Close"
         >
           <svg class="olymp-close-icon">
-            <use xlink:href="#olymp-close-icon"></use>
+            <use xlink:href="@/assets/svg-sprite.svg#olymp-close-icon"></use>
           </svg>
         </a>
         <div class="ui-block">
@@ -35,7 +35,7 @@
                       />
                       <div class="form-icon">
                         <svg class="v-rating-svg">
-                          <use xlink:href="#alert"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                         </svg>
                       </div>
                       <span class="material-input"></span>
@@ -53,7 +53,7 @@
                       />
                       <div class="form-icon">
                         <svg class="v-rating-svg">
-                          <use xlink:href="#calendar-4"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#calendar-4"></use>
                         </svg>
                       </div>
                     </div>
@@ -68,7 +68,7 @@
                       />
                       <div class="form-icon">
                         <svg class="v-rating-svg">
-                          <use xlink:href="#calendar-4"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#calendar-4"></use>
                         </svg>
                       </div>
                     </div>
@@ -84,7 +84,7 @@
                       ></textarea>
                       <div class="form-icon">
                         <svg class="v-rating-svg">
-                          <use xlink:href="#alert"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#alert"></use>
                         </svg>
                       </div>
                       <span class="material-input"></span>

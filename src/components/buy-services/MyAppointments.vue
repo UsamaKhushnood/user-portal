@@ -54,38 +54,32 @@
       <div class="tab-pane show active">
         <div
           class="task-content-row"
-          v-for="(gift, giftIndex) in gifts"
-          :key="giftIndex"
+          v-for="(appointment, appointmentIndex) in appointments"
+          :key="appointmentIndex"
         >
           <div class="task-content ticket-prgs-common">
             <div class="tckt-t-w task-icon">
               <svg class="">
-                <use xlink:href="@/assets/svg-sprite.svg#shopping-cart-1"></use>
+                <use xlink:href="@/assets/svg-sprite.svg#calendar"></use>
               </svg>
             </div>
             <div class="task-ctnt-common task-det">
-              <span class="stm-cont-h">{{ giftIndex }}: Purchase ID</span>
-              <span>{{ gift.purchaseId }}</span>
+              <span class="stm-cont-h">
+                {{ appointmentIndex }}: {{ appointment.title }}</span
+              >
+              <span>{{ appointment.appointmentDate }}</span>
             </div>
             <div class="task-ctnt-common task-det">
-              <span class="stm-cont-h">Purchase Title</span>
-              <span>{{ gift.title }}</span>
+              <span class="stm-cont-h">Company Name</span>
+              <span>{{ appointment.companyName }}</span>
             </div>
             <div class="task-ctnt-common task-det">
-              <span class="stm-cont-h">Date</span>
-              <span>{{ gift.purchaseDate }}</span>
-            </div>
-            <div class="task-ctnt-common task-det">
-              <span class="stm-cont-h">Sent By</span>
-              <span>{{ gift.sentBy }}</span>
-            </div>
-            <div class="task-ctnt-common task-det">
-              <span class="stm-cont-h">Status</span>
-              <span class="c-green">{{ gift.status }}</span>
+              <span class="stm-cont-h">Appointment</span>
+              <span>{{ appointment.appointmentDate }}</span>
             </div>
             <div class="task-ctnt-common task-det text-center task-icon-com">
               <svg class="">
-                <use xlink:href="@/assets/svg-sprite.svg#upload-2"></use>
+                <use xlink:href="@/assets/svg-sprite.svg#eye"></use>
               </svg>
             </div>
           </div>
@@ -99,20 +93,21 @@
 export default {
   data() {
     return {
-      gifts: [
+      appointments: [
         {
-          purchaseId: "123445566",
-          title: "Car Service for Free",
-          purchaseDate: "Date and Time",
-          sentBy: "Username",
-          status: "Valid",
+          title: "Service Title",
+          companyName: "CarSystems GmbH",
+          appointmentDate: "Date and Time",
         },
         {
-          purchaseId: "123445566",
-          title: "Car Service for Free",
-          purchaseDate: "Date and Time",
-          sentBy: "s-cs@hotmail.de",
-          status: "Valid",
+          title: "Service Title",
+          companyName: "CarSystems GmbH",
+          appointmentDate: "Date and Time",
+        },
+        {
+          title: "Service Title",
+          companyName: "CarSystems GmbH",
+          appointmentDate: "Date and Time",
         },
       ],
     };
