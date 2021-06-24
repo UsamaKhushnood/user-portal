@@ -4,6 +4,7 @@ import VueRouter from "vue-router";
 import TheContainer from "@/components/main/TheContainer";
 import Dashboard from "../Dashboard";
 import MyProjects from "@/views/MyProjects";
+import ViewProject from "@/views/ViewProject";
 import PageNotFound from "@/views/PageNotFound";
 import JobsTasks from "@/views/JobsTasks";
 import BuyServices from "@/views/BuyServices";
@@ -31,6 +32,11 @@ const routes = [{
                 path: "/my-projects",
                 name: "My Projects",
                 component: MyProjects,
+            },
+            {
+                path: "/my-projects/:id",
+                name: "Project Detials",
+                component: ViewProject,
             },
             {
                 path: "/job-tasks",

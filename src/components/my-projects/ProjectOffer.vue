@@ -23,7 +23,7 @@
             width="255px"
             height="255px"
             viewBox="0 0 255 255"
-            style="enable-background:new 0 0 255 255;"
+            style="enable-background: new 0 0 255 255"
             xml:space="preserve"
           >
             <g>
@@ -55,7 +55,10 @@
       v-for="(job, jobIndex) in jobsListing"
       :key="jobIndex"
     >
-      <div class="task-content ticket-prgs-common border-0">
+      <div
+        class="task-content ticket-prgs-common border-0"
+        @click="move('/my-projects/' + jobIndex)"
+      >
         <div class="tckt-t-w task-icon">
           <svg class="icon">
             <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
@@ -70,10 +73,6 @@
           <span> {{ job.proposals }} </span>
         </div>
       </div>
-      <a
-        class="abs-link"
-        href="http://ihannoveraner.de/service-user/view-proposals.php"
-      ></a>
     </div>
   </div>
 </template>
@@ -113,5 +112,17 @@ export default {
       ],
     };
   },
+  methods: {
+    move(to) {
+      this.$router.push({ path: to });
+    },
+  },
 };
 </script>
+<style lang="scss" scoped>
+
+.task-content.ticket-prgs-common.border-0 {
+    cursor: pointer;
+}
+
+</style>

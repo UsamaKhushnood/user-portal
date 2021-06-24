@@ -1,75 +1,129 @@
 <template>
-  <div id="main-right-sidebar" class="col-md-1">
-    <div class="fixed-sidebar right" id="fr">
+  <div
+    id="main-right-sidebar"
+    class="col-md-1"
+    @mouseover="sidebarOpen = true"
+    @mouseout="sidebarOpen = false"
+  >
+    <ChatPopup v-show="showChat" />
+    <div
+      class="fixed-sidebar right"
+      :class="{ open: sidebarOpen == true }"
+      id="fr"
+    >
       <div class="fixed-sidebar-right sidebar--small" id="sidebar-right">
         <div class="mCustomScrollbar" data-mcs-theme="dark">
           <ul class="chat-users">
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar67-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar67-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar62-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar62-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
             </li>
 
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar68-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar68-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
             </li>
 
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar69-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar69-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status away"></span>
               </div>
             </li>
 
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar70-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar70-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status disconected"></span>
               </div>
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar64-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar64-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar71-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar71-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar72-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar72-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status away"></span>
               </div>
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar63-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar63-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status status-invisible"></span>
               </div>
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar72-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar72-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status away"></span>
               </div>
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar71-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar71-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
             </li>
@@ -106,20 +160,26 @@
           </div>
 
           <ul class="chat-users">
-            <li class="inline-items js-chat-open">
+            <li
+              class="inline-items js-chat-open"
+              v-for="(user, userIndex) in userList"
+              :key="userIndex"
+            >
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar67-sm.jpg" class="avatar" />
-                <span class="icon-status online"></span>
+                <img alt="author" :src="user.img" class="avatar" />
+                <span class="icon-status" :class="user.status.toLowerCase()"></span>
               </div>
 
-              <div class="author-status">
-                <a href="#" class="h6 author-name">Carol Summers</a>
-                <span class="status">ONLINE</span>
+              <div class="author-status" @click="showChat = !showChat">
+                <a href="#" class="h6 author-name">{{ user.name }}</a>
+                <span class="status">{{ user.status }}</span>
               </div>
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
+                  <use
+                    xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"
+                  ></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -130,7 +190,9 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -141,7 +203,9 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -152,218 +216,9 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
-                    </svg>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="inline-items js-chat-open">
-              <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar62-sm.jpg" class="avatar" />
-                <span class="icon-status online"></span>
-              </div>
-
-              <div class="author-status">
-                <a href="#" class="h6 author-name">Mathilda Brinker</a>
-                <span class="status">AT WORK!</span>
-              </div>
-
-              <div class="more">
-                <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
-                </svg>
-
-                <ul class="more-icons">
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="START CONVERSATION"
-                      class="olymp-comments-post-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="ADD TO CONVERSATION"
-                      class="olymp-add-to-conversation-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="BLOCK FROM CHAT"
-                      class="olymp-block-from-chat-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
-                    </svg>
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="inline-items js-chat-open">
-              <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar68-sm.jpg" class="avatar" />
-                <span class="icon-status online"></span>
-              </div>
-
-              <div class="author-status">
-                <a href="#" class="h6 author-name">Carol Summers</a>
-                <span class="status">ONLINE</span>
-              </div>
-
-              <div class="more">
-                <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
-                </svg>
-
-                <ul class="more-icons">
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="START CONVERSATION"
-                      class="olymp-comments-post-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="ADD TO CONVERSATION"
-                      class="olymp-add-to-conversation-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="BLOCK FROM CHAT"
-                      class="olymp-block-from-chat-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
-                    </svg>
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="inline-items js-chat-open">
-              <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar69-sm.jpg" class="avatar" />
-                <span class="icon-status away"></span>
-              </div>
-
-              <div class="author-status">
-                <a href="#" class="h6 author-name">Michael Maximoff</a>
-                <span class="status">AWAY</span>
-              </div>
-
-              <div class="more">
-                <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
-                </svg>
-
-                <ul class="more-icons">
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="START CONVERSATION"
-                      class="olymp-comments-post-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="ADD TO CONVERSATION"
-                      class="olymp-add-to-conversation-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="BLOCK FROM CHAT"
-                      class="olymp-block-from-chat-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
-                    </svg>
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="inline-items js-chat-open">
-              <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar70-sm.jpg" class="avatar" />
-                <span class="icon-status disconected"></span>
-              </div>
-
-              <div class="author-status">
-                <a href="#" class="h6 author-name">Rachel Howlett</a>
-                <span class="status">OFFLINE</span>
-              </div>
-
-              <div class="more">
-                <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
-                </svg>
-
-                <ul class="more-icons">
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="START CONVERSATION"
-                      class="olymp-comments-post-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="ADD TO CONVERSATION"
-                      class="olymp-add-to-conversation-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
-                    </svg>
-                  </li>
-
-                  <li>
-                    <svg
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      data-original-title="BLOCK FROM CHAT"
-                      class="olymp-block-from-chat-icon"
-                    >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"
+                      ></use>
                     </svg>
                   </li>
                 </ul>
@@ -377,9 +232,13 @@
           </div>
 
           <ul class="chat-users">
-            <li class="inline-items js-chat-open">
+            <li class="inline-items js-chat-open" >
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar64-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar64-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
 
@@ -390,7 +249,9 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
+                  <use
+                    xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"
+                  ></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -401,7 +262,9 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -412,7 +275,9 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -423,7 +288,9 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"
+                      ></use>
                     </svg>
                   </li>
                 </ul>
@@ -439,7 +306,11 @@
           <ul class="chat-users">
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar71-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar71-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
 
@@ -450,7 +321,9 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
+                  <use
+                    xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"
+                  ></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -461,7 +334,9 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -472,7 +347,9 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -483,7 +360,9 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"
+                      ></use>
                     </svg>
                   </li>
                 </ul>
@@ -491,7 +370,11 @@
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar72-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar72-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status away"></span>
               </div>
 
@@ -502,7 +385,9 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
+                  <use
+                    xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"
+                  ></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -513,7 +398,9 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -524,7 +411,9 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -535,7 +424,9 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"
+                      ></use>
                     </svg>
                   </li>
                 </ul>
@@ -543,7 +434,11 @@
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar63-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar63-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status status-invisible"></span>
               </div>
 
@@ -554,7 +449,9 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
+                  <use
+                    xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"
+                  ></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -565,7 +462,9 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -576,7 +475,9 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -587,7 +488,9 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"
+                      ></use>
                     </svg>
                   </li>
                 </ul>
@@ -595,7 +498,11 @@
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar72-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar72-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status away"></span>
               </div>
 
@@ -606,7 +513,9 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
+                  <use
+                    xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"
+                  ></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -617,7 +526,9 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -628,7 +539,9 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -639,7 +552,9 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"
+                      ></use>
                     </svg>
                   </li>
                 </ul>
@@ -647,7 +562,11 @@
             </li>
             <li class="inline-items js-chat-open">
               <div class="author-thumb">
-                <img alt="author" src="@/assets/img/avatar71-sm.jpg" class="avatar" />
+                <img
+                  alt="author"
+                  src="@/assets/img/avatar71-sm.jpg"
+                  class="avatar"
+                />
                 <span class="icon-status online"></span>
               </div>
 
@@ -658,7 +577,9 @@
 
               <div class="more">
                 <svg class="olymp-three-dots-icon">
-                  <use xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"></use>
+                  <use
+                    xlink:href="@/assets/svg-sprite.svg#olymp-three-dots-icon"
+                  ></use>
                 </svg>
 
                 <ul class="more-icons">
@@ -669,7 +590,9 @@
                       data-original-title="START CONVERSATION"
                       class="olymp-comments-post-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-comments-post-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -680,7 +603,9 @@
                       data-original-title="ADD TO CONVERSATION"
                       class="olymp-add-to-conversation-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-add-to-conversation-icon"
+                      ></use>
                     </svg>
                   </li>
 
@@ -691,7 +616,9 @@
                       data-original-title="BLOCK FROM CHAT"
                       class="olymp-block-from-chat-icon"
                     >
-                      <use xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"></use>
+                      <use
+                        xlink:href="@/assets/svg-sprite.svg#olymp-block-from-chat-icon"
+                      ></use>
                     </svg>
                   </li>
                 </ul>
@@ -712,7 +639,9 @@
 
           <a href="#" class="settings">
             <svg class="olymp-settings-icon">
-              <use xlink:href="@/assets/svg-sprite.svg#olymp-settings-icon"></use>
+              <use
+                xlink:href="@/assets/svg-sprite.svg#olymp-settings-icon"
+              ></use>
             </svg>
           </a>
 
@@ -742,16 +671,16 @@
               ></circle>
               <path
                 d="M263.3,87.5c-86.8,0-157.2,70.4-157.2,157.2c0,27.2,6.9,52.8,19.1,75.1l-19.1,82.1l82.1-19.1
-	c22.3,12.2,47.9,19.1,75.1,19.1c86.8,0,157.2-70.4,157.2-157.2S350.1,87.5,263.3,87.5z"
+	                  c22.3,12.2,47.9,19.1,75.1,19.1c86.8,0,157.2-70.4,157.2-157.2S350.1,87.5,263.3,87.5z"
                 style="fill: rgb(255, 255, 255)"
               ></path>
               <path
                 d="M271.6,280.3h-29.3v-15.8c0-6.9,0.8-12.1,2.5-15.4c1.6-3.4,5.2-7.8,10.8-13.3l18.9-18.9
-	c4-4.3,6-9.7,6-16.1c0-6.4-2.1-11.7-6.2-15.9c-4.2-4.2-9.5-6.4-16.1-6.4s-12,2-16.5,6.1c-4.4,4.1-7,9.5-7.7,16.2h-31.4
-	c1.7-15.4,7.7-27.4,18-36.1c10.3-8.7,23.1-13.1,38.5-13.1s27.9,4.2,37.6,12.6c9.7,8.4,14.5,20.1,14.5,35.1c0,10.4-2.8,19-8.5,25.9
-	c-3.3,4.1-5.8,7.1-7.5,8.8s-4,3.9-6.9,6.6c-2.9,2.7-5.3,5-7.3,7s-3.6,3.7-4.8,5.1c-3.1,3.8-4.7,9.2-4.7,16.1v11.5H271.6z
-	 M257.5,337.9c-5.4,0-10.1-1.9-14.1-5.6s-6-8.2-6-13.5s1.9-9.8,5.8-13.6c3.9-3.8,8.6-5.7,14-5.7c5.4,0,10.1,1.9,14.1,5.6
-	s5.9,8.2,5.9,13.5s-1.9,9.8-5.8,13.6C267.6,336,262.9,337.9,257.5,337.9z"
+	                c4-4.3,6-9.7,6-16.1c0-6.4-2.1-11.7-6.2-15.9c-4.2-4.2-9.5-6.4-16.1-6.4s-12,2-16.5,6.1c-4.4,4.1-7,9.5-7.7,16.2h-31.4
+	                c1.7-15.4,7.7-27.4,18-36.1c10.3-8.7,23.1-13.1,38.5-13.1s27.9,4.2,37.6,12.6c9.7,8.4,14.5,20.1,14.5,35.1c0,10.4-2.8,19-8.5,25.9
+	                c-3.3,4.1-5.8,7.1-7.5,8.8s-4,3.9-6.9,6.6c-2.9,2.7-5.3,5-7.3,7s-3.6,3.7-4.8,5.1c-3.1,3.8-4.7,9.2-4.7,16.1v11.5H271.6z
+	                 M257.5,337.9c-5.4,0-10.1-1.9-14.1-5.6s-6-8.2-6-13.5s1.9-9.8,5.8-13.6c3.9-3.8,8.6-5.7,14-5.7c5.4,0,10.1,1.9,14.1,5.6
+	                s5.9,8.2,5.9,13.5s-1.9,9.8-5.8,13.6C267.6,336,262.9,337.9,257.5,337.9z"
                 style="fill: rgb(255, 112, 88)"
               ></path>
               <g></g>
@@ -810,8 +739,47 @@
   </div>
 </template>
 <script>
-export default {};
+import ChatPopup from "./ChatPopup.vue";
+export default {
+  components: { ChatPopup },
+  data() {
+    return {
+      sidebarOpen: false,
+      showChat: false,
+      userList: [
+        {
+          img: require("@/assets/img/avatar63-sm.jpg"),
+          name: "Carol Summers",
+          status: "online",
+        },
+        {
+          img: require("@/assets/img/avatar63-sm.jpg"),
+          name: "Carol Summers",
+          status: "status-invisible",
+        },
+        {
+          img: require("@/assets/img/avatar63-sm.jpg"),
+          name: "Carol Summers",
+          status: "disconected",
+        },
+        {
+          img: require("@/assets/img/avatar63-sm.jpg"),
+          name: "Carol Summers",
+          status: "disconected",
+        },
+        {
+          img: require("@/assets/img/avatar63-sm.jpg"),
+          name: "Carol Summers",
+          status: "online",
+        },
+        {
+          img: require("@/assets/img/avatar63-sm.jpg"),
+          name: "Carol Summers",
+          status: "ONLINE",
+        },
+      ],
+    };
+  },
+};
 </script>
-<style>
 
-</style>
