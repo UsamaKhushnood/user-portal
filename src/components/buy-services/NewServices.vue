@@ -57,14 +57,21 @@
         :key="productIndex"
       >
         <div class="b-s-container">
+    <a data-toggle="modal"
+            data-target="#offer-time"
+             v-b-modal="'company-info' + productIndex">
+             <CompanyInfoModal  :productIndex="productIndex"></CompanyInfoModal>
           <img
             class="b-s-img"
             :src="product.coverImg"
-            data-toggle="modal"
-            data-target="#offer-time"
+            
           />
+          </a>
           <div class="b-s-provider">
+        
+
             <img class="b-s-p-img" :src="product.userImg" />
+            
             <div class="b-s-desig">
               <span class="b-s-desig-h">{{ product.title }}</span>
               <span class="c-orange">{{ product.rank }}</span>
@@ -120,8 +127,9 @@
 <script>
 import BuyNowModal from "./modals/buy-services-modals/BuyNowModal";
 import SendAsGiftModal from "./modals/buy-services-modals/SendAsGiftModal";
+import CompanyInfoModal from "./modals/buy-services-modals/CompanyInfoModal";
 export default {
-  components: { BuyNowModal, SendAsGiftModal },
+  components: { BuyNowModal, SendAsGiftModal,CompanyInfoModal },
   data() {
     return {
       products: [

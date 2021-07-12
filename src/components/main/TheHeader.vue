@@ -83,15 +83,15 @@
                 <div class="dd-footer">
                   <div class="f-bottom">
                     <div class="f-bottom-icon f-b-messages">
-                      <a
-                        href="http://ihannoveraner.de/service-user/settings.php"
+                      <router-link
+                        to="/settings"
                       >
                         <svg class="icon">
                           <use
                             xlink:href="@/assets/svg-sprite.svg#settings"
                           ></use>
                         </svg>
-                      </a>
+                      </router-link>
                     </div>
                     <div class="f-bottom-icon f-b-powerButton">
                       <a href="#">

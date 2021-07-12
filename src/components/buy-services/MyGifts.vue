@@ -54,6 +54,11 @@
       <div class="tab-pane show active">
         <div
           class="task-content-row"
+          data-dismiss="modal"
+          aria-label="Close"
+          data-toggle="modal"
+          data-target="#tsk-v-gift"
+          v-b-modal="'my-gift' + giftIndex"
           v-for="(gift, giftIndex) in gifts"
           :key="giftIndex"
         >
@@ -89,14 +94,18 @@
               </svg>
             </div>
           </div>
+            <MyGiftsModal :giftIndex="giftIndex"></MyGiftsModal>
         </div>
+      
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import MyGiftsModal from './modals/MyGiftsModal'
 export default {
+  components:{MyGiftsModal},
   data() {
     return {
       gifts: [

@@ -15,6 +15,7 @@ import Appointment from "@/views/Appointment";
 import Reviews from "@/views/Reviews";
 import SupportHelp from "@/views/SupportHelp";
 import Reports from "@/views/Reports";
+import Settings from "@/views/Settings";
 
 Vue.use(VueRouter);
 
@@ -83,6 +84,11 @@ const routes = [{
                 name: "Reports",
                 component: Reports,
             },
+            {
+            path: "/settings",
+            name: "Settings",
+            component: Settings,
+        },
         ],
     },
     {

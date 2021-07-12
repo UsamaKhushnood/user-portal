@@ -14,3 +14,34 @@
 .ofh {
     overflow: hidden;
 }
+
+button.close {
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+.partner-padding,.project-padding{
+    padding: 24px 23px 23px !important;
+    background-color: #EDF2F6;
+}
+div#option_clones2 {
+    flex-wrap: nowrap;
+}
+#partner-policy, #inquire-tab,#padding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+svg#partner-header {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-top: 0;
+}
+#AddProject{
+    padding-left:15px !important;
+}
+
+

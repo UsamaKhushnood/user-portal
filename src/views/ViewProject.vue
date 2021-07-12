@@ -13,7 +13,7 @@
                 <div class="inv-flc">
                   <span>
                     <svg class="">
-                      <use xlink:href="#warning"></use>
+                      <use xlink:href="@/assets/svg-sprite.svg#warning"></use>
                     </svg>
                   </span>
                   <div class="inv-det">
@@ -37,7 +37,7 @@
                       <li class="active">
                         <span class="c-red">15</span
                         ><a
-                          href="http://ihannoveraner.de/service-user/view-proposals.php"
+                          href="#"
                           >New Proposals</a
                         >
                       </li>

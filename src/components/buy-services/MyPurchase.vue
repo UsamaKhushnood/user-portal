@@ -479,7 +479,14 @@
           <span class="si-txt">There is no Items yet</span>
         </div>
         <div class="task-content-row"
-        v-for="(purchasedItem, purchasedIndex) in purchasedItems" :key="purchasedIndex">
+         data-dismiss="modal"
+                    aria-label="Close"
+                    data-toggle="modal"
+                    data-target="#tsk-v-purchase"
+                     v-b-modal="'my-purchase' + purchasedIndex"
+        v-for="(purchasedItem, purchasedIndex) in purchasedItems" :key="purchasedIndex"
+       
+        >
           <div class="task-content ticket-prgs-common">
             <div class="tckt-t-w task-icon">
               <svg class="">
@@ -503,6 +510,7 @@
               <span class="c-green">{{ purchasedItem.status }}</span>
             </div>
           </div>
+          <MyPurchaseModal :purchasedIndex="purchasedIndex"></MyPurchaseModal>
         </div>
         
       </div>
@@ -511,7 +519,9 @@
 </template>
 
 <script>
+import MyPurchaseModal from './modals/MyPurchaseModal'
 export default {
+  components:{MyPurchaseModal},
     data(){
         return {
             purchasedItems: [
