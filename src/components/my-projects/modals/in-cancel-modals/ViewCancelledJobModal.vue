@@ -44,7 +44,7 @@
           </div>
           <div class="modal-body tab-pane modal-body-bap show active">
             <form class="custom-form row l-print-form">
-              <div class="l-print-btn">
+              <div class="l-print-btn" style="width: 65px;">
                 <svg class="">
                   <use xlink:href="@/assets/svg-sprite.svg#printer"></use>
                 </svg>
