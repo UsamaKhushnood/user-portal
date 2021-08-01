@@ -16,10 +16,11 @@
                       <use xlink:href="@/assets/svg-sprite.svg#warning"></use>
                     </svg>
                   </span>
-                  <div class="inv-det">
+                  <div class="inv-det" v-b-modal="'invent-freelancer'">
                     <span class="inv-det-h">Invent Freelancer</span>
                     <span class="inv-det-txt">Get more quote</span>
                   </div>
+                  <ViewProposalModal></ViewProposalModal>
                 </div>
               </div>
             </div>
@@ -162,6 +163,7 @@
                     class="pane-common-inner pop-over crsr-pntr"
                     data-toggle="modal"
                     data-target="#smart-system"
+                    v-b-modal="'invent-freelancer-2'"
                   >
                     <div class="task-content-row">
                       <div class="no-prop">
@@ -175,6 +177,7 @@
                       </div>
                     </div>
                   </div>
+                  <ViewProposalModal2></ViewProposalModal2>
                   <div class="pane-common-inner">
                     <div class="task-content-row">
                       <div class="row-prop-container">
@@ -1251,4 +1254,15 @@
       </div>
     </div>
   </div>
+  
 </template>
+
+
+
+<script>
+import ViewProposalModal from "@/components/my-projects/view-proposal-modals/ViewProposalModal";
+import ViewProposalModal2 from "@/components/my-projects/view-proposal-modals/ViewProposalModal2";
+export default {
+  components: { ViewProposalModal, ViewProposalModal2 }
+}
+</script>
