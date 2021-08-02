@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-modal :id="'my-gift' + giftIndex"  size="lg" hide-footer hide-header>
+    <b-modal :id="'my-gift' + giftIndex" size="lg" hide-footer hide-header>
       <template #default="{ close }">
         <div class="modal-content">
           <a
@@ -17,14 +17,15 @@
               ></path>
             </svg>
           </a>
-          <div class="ui-block">
-            <div class="ui-block-title">
+          <div class="ui-block mb-0">
+            <div
+              class="ui-block-title"
+              style="display: flex; justify-content: space-between; flex-direction: row-reverse;align-items: center;}"
+            >
               <svg class="icon-title">
-                <use xlink:href="#gift-box"></use>
+                <use xlink:href="@/assets/svg-sprite.svg#gift-box"></use>
               </svg>
-              <span class="gft-ico-popup-title">
-                Received Gifts
-              </span>
+              <span class="gft-ico-popup-title"> Received Gifts </span>
             </div>
           </div>
           <div class="modal-body modal-body-no-p">
@@ -37,7 +38,9 @@
                       <div class="add-data-person">
                         <div class="add-data-svg">
                           <svg class="v-rating-svg">
-                            <use xlink:href="#alert-1"></use>
+                            <use
+                              xlink:href="@/assets/svg-sprite.svg#alert-1"
+                            ></use>
                           </svg>
                         </div>
                         <div class="add-data-txt text-center">
@@ -49,7 +52,9 @@
                       <div class="add-data-person">
                         <div class="add-data-svg">
                           <svg class="v-rating-svg">
-                            <use xlink:href="#list-2"></use>
+                            <use
+                              xlink:href="@/assets/svg-sprite.svg#list-2"
+                            ></use>
                           </svg>
                         </div>
                         <div class="add-data-txt text-center">
@@ -59,7 +64,7 @@
                     </div>
                     <div class="service-dsv-wrapper">
                       <div class="service-dsv-col service-dsv-col-img">
-                        <img src="img/dsv.png" />
+                        <img src="@/assets/img/mencap.png" />
                       </div>
                       <div class="service-dsv-col">
                         <div class="service-dsv-col-row">
@@ -95,7 +100,9 @@
                         <input class="form-control" placeholder="Select Date" />
                         <div class="form-icon">
                           <svg class="v-rating-svg">
-                            <use xlink:href="#calendar-4"></use>
+                            <use
+                              xlink:href="@/assets/svg-sprite.svg#calendar-4"
+                            ></use>
                           </svg>
                         </div>
                         <span class="material-input"></span>
@@ -107,7 +114,9 @@
                         <input class="form-control" placeholder="Select Time" />
                         <div class="form-icon">
                           <svg class="v-rating-svg">
-                            <use xlink:href="#clock-1"></use>
+                            <use
+                              xlink:href="@/assets/svg-sprite.svg#clock-1"
+                            ></use>
                           </svg>
                         </div>
                         <span class="material-input"></span>
@@ -117,17 +126,19 @@
                       <div class="offer-rcv-map">
                         <div class="offer-rcv-logo">
                           <div class="offer-rcv-logo-img">
-                            <img class="" src="img/mencap.png" />
+                            <img class="" src="@/assets/img/mencap.png" />
                           </div>
                           <div class="offer-rcv-logo-map">
-                            <img class="" src="img/map-off.png" />
+                            <img class="" src="@/assets/img/map-off.png" />
                           </div>
                         </div>
                       </div>
                       <div class="offer-rcv-location-wrapper">
                         <div class="offer-rcv-location-icon">
                           <svg class="v-rating-svg">
-                            <use xlink:href="#location-1"></use>
+                            <use
+                              xlink:href="@/assets/svg-sprite.svg#location-1"
+                            ></use>
                           </svg>
                         </div>
                         <div class="offer-rcv-l-nadd">
@@ -140,7 +151,9 @@
                       <div class="gft-rcv-ot-wrapper">
                         <div class="gft-rcv-ot-title">
                           <svg class="">
-                            <use xlink:href="#clock-1"></use>
+                            <use
+                              xlink:href="@/assets/svg-sprite.svg#clock-1"
+                            ></use>
                           </svg>
                           <span>Opening Time</span>
                         </div>
@@ -179,9 +192,9 @@
                 </div>
               </div>
               <div class="col-12 btn-files-container">
-                <div class="row">
+                <div class="row ">
                   <!--<button class="btn btn-primary btn-files-pop">Buy Now</button>-->
-                  <div class="btn-files-chbox">
+                  <div class="btn-files-chbox col-md-6 ">
                     <input id="ih-seen" type="checkbox" />
                     <label for="ih-seen">I have seen</label>
                   </div>
@@ -201,3 +214,10 @@ export default {
   props: ["giftIndex"],
 };
 </script>
+<style scoped>
+.btn-files-chbox {
+    border-right: 1px solid #e6ecf5;
+    padding: 12px 12px 12px 12px;
+    flex: 1 1 50%;
+}
+</style>

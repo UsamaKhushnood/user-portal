@@ -19,7 +19,8 @@
                 </svg>
               </div>
               <div class="add-j-new-tsk-det">
-                <span class="add-j-new-tsk-title">Add new Taks</span>
+                <span class="add-j-new-tsk-title" v-b-modal.addNewTaskModal>Add new Taks</span>
+                <AddNewTask />
                 <span class="add-j-new-tsk-txt"
                   >Add improvments to your project</span
                 >
@@ -116,7 +117,7 @@
                 </div>
                 <ul class="nav nav-tabs nav-justified">
                   <li class="nav-item">
-                    <a class="nav-link " data-toggle="tab" href="#"
+                    <a class="nav-link " data-toggle="tab" href="#tab-2-1"
                     :class="[{ active: $route.hash === '' }]"
                       >All Tasks</a
                     >
@@ -429,7 +430,7 @@
             <div class="col-12 tab-sec-ticket tab-not">
             
               <div class="tab-content">
-                <div class="tab-pane show" :class="[{ active: $route.hash === '' }]">
+                <div class="tab-pane show active">
                  <AllTasks/>
                 </div>
               </div>
@@ -462,8 +463,9 @@ import NewHold from "@/components/job-tasks/NewHold";
 import NewDone from "@/components/job-tasks/NewDone";
 import NewCheck from "@/components/job-tasks/NewCheck";
 import NewRejected from "@/components/job-tasks/NewRejected";
+import AddNewTask from "@/components/job-tasks/AddNewTask";
 export default {
-  components:{AllTasks,NewProgress,NewHold,NewDone,NewCheck,NewRejected},
+  components:{AllTasks,NewProgress,NewHold,NewDone,NewCheck,NewRejected, AddNewTask},
  
 };
 </script>

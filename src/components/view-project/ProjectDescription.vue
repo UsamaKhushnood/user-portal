@@ -13,7 +13,7 @@
                         <div class="abt-project text-right">
                             <span class="abt-desc">
                                 <svg class="">
-                                    <use xlink:href="#printer"></use>
+                                    <use xlink:href="@/assets/svg-sprite.svg#printer"></use>
                                 </svg>
                             </span>
                         </div>
@@ -46,7 +46,7 @@
                             <div class="pd-tsk-inner">
                                 <div class="pd-tski-cmn pd-tski-cmn-icon">
                                     <svg class="">
-                                        <use xlink:href="#task"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                     </svg>
                                 </div>
                                 <div class="pd-tski-cmn pd-tski-cmn-detail">
@@ -76,7 +76,7 @@
                             <div class="pd-tsk-inner">
                                 <div class="pd-tski-cmn pd-tski-cmn-icon">
                                     <svg class="">
-                                        <use xlink:href="#task"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#task"></use>
                                     </svg>
                                 </div>
                                 <div class="pd-tski-cmn pd-tski-cmn-detail">
@@ -116,7 +116,7 @@
                             <div class="pd-fls-inner">
                                 <div class="pd-flsi-cmn pd-flsi-cmn-icon">
                                     <svg class="">
-                                        <use xlink:href="#word"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#word"></use>
                                     </svg>
                                 </div>
                                 <div class="pd-flsi-cmn pd-flsi-cmn-detail">
@@ -125,7 +125,7 @@
                                 </div>
                                 <div class="pd-flsi-cmn pd-flsi-dwld-icon">
                                     <svg class="">
-                                        <use xlink:href="#download"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#download"></use>
                                     </svg>
                                     <span class="t-downloads">200</span>
                                 </div>
@@ -135,7 +135,7 @@
                             <div class="pd-fls-inner">
                                 <div class="pd-flsi-cmn pd-flsi-cmn-icon">
                                     <svg class="">
-                                        <use xlink:href="#word"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#word"></use>
                                     </svg>
                                 </div>
                                 <div class="pd-flsi-cmn pd-flsi-cmn-detail">
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="pd-flsi-cmn pd-flsi-dwld-icon">
                                     <svg class="">
-                                        <use xlink:href="#download"></use>
+                                        <use xlink:href="@/assets/svg-sprite.svg#download"></use>
                                     </svg>
                                     <span class="t-downloads">200</span>
                                 </div>

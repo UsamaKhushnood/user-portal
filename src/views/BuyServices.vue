@@ -13,7 +13,7 @@
             </div>
             <ul class="nav nav-tabs nav-justified">
                 <li class="nav-item">
-                    <a class="nav-link " data-toggle="tab" href="#"
+                    <a class="nav-link " data-toggle="tab" href="#tab-2-1"
                     :class="[{ active: $route.hash === '' }]"
                     >Buy Services</a>
                 </li>

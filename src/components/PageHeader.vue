@@ -1586,7 +1586,7 @@
                         <div class="doc-inner">
                           <div class="doc-file-svg">
                             <svg class="doc-file-icon">
-                              <use xlink:href="#file"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#file"></use>
                             </svg>
                           </div>
                           <div class="doc-det">
@@ -2250,7 +2250,7 @@
                         <div class="doc-inner">
                           <div class="doc-file-svg">
                             <svg class="doc-file-icon">
-                              <use xlink:href="#file"></use>
+                              <use xlink:href="@/assets/svg-sprite.svg#file"></use>
                             </svg>
                           </div>
                           <div class="doc-det">

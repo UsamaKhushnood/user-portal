@@ -16,7 +16,7 @@
                                         <input class="form-control" placeholder="*********" type="text">
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#password"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#password"></use>
                                             </svg>
                                         </div>
                                     <span class="material-input"></span><span class="material-input"></span></div>
@@ -27,7 +27,7 @@
                                         <input class="form-control" placeholder="District" type="text">
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#password"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#password"></use>
                                             </svg>
                                         </div>
                                     <span class="material-input"></span><span class="material-input"></span></div>
@@ -38,7 +38,7 @@
                                         <input class="form-control" placeholder="District" type="text">
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#password"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#password"></use>
                                             </svg>
                                         </div>
                                     <span class="material-input"></span><span class="material-input"></span></div>
@@ -66,7 +66,7 @@
                                         <input class="form-control" placeholder="Phone Number" type="text">
                                         <div class="form-icon">
                                             <svg class="v-rating-svg">
-                                                <use xlink:href="#smartphone"></use>
+                                                <use xlink:href="@/assets/svg-sprite.svg#smartphone"></use>
                                             </svg>
                                         </div>
                                     <span class="material-input"></span><span class="material-input"></span></div>

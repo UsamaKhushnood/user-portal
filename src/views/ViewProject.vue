@@ -200,14 +200,14 @@
                           <div class="row-prop-c-det">
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#rocket-ship"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#rocket-ship"></use>
                               </svg>
                               <span class="row-prop-h">Work Start</span>
                               <span class="row-prop-txt">Now</span>
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Work Type</span>
                               <span class="row-prop-txt"
@@ -216,7 +216,7 @@
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Warranty</span>
                               <span class="row-prop-txt">Yes – 3 Weeks</span>
@@ -235,31 +235,31 @@
                       <div class="row-prop-detail">
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#worldwide"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#worldwide"></use>
                           </svg>
                           <span class="row-prop-dl-txt">GE</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#location-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#location-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">Hannover</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#bubble-speak"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#bubble-speak"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#clock-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#clock-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Hours</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#verify"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#verify"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Jobs</span>
                         </div>
@@ -283,19 +283,19 @@
                             <span>Freelancer Name</span>
                             <div class="row-prop-rating-container">
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                             </div>
                           </div>
@@ -303,14 +303,14 @@
                           <div class="row-prop-c-det">
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#rocket-ship"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#rocket-ship"></use>
                               </svg>
                               <span class="row-prop-h">Work Start</span>
                               <span class="row-prop-txt">Now</span>
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Work Type</span>
                               <span class="row-prop-txt"
@@ -319,7 +319,7 @@
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Warranty</span>
                               <span class="row-prop-txt">Yes – 3 Weeks</span>
@@ -338,31 +338,31 @@
                       <div class="row-prop-detail">
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#worldwide"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#worldwide"></use>
                           </svg>
                           <span class="row-prop-dl-txt">GE</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#location-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#location-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">Hannover</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#bubble-speak"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#bubble-speak"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#clock-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#clock-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Hours</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#verify"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#verify"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Jobs</span>
                         </div>
@@ -386,33 +386,33 @@
                             <span>Company Name</span>
                             <div class="row-prop-rating-container">
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                             </div>
                           </div>
                           <div class="row-prop-c-det">
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#rocket-ship"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#rocket-ship"></use>
                               </svg>
                               <span class="row-prop-h">Work Start</span>
                               <span class="row-prop-txt">Now</span>
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Work Type</span>
                               <span class="row-prop-txt"
@@ -421,7 +421,7 @@
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Warranty</span>
                               <span class="row-prop-txt">Yes – 3 Weeks</span>
@@ -440,31 +440,31 @@
                       <div class="row-prop-detail">
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#worldwide"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#worldwide"></use>
                           </svg>
                           <span class="row-prop-dl-txt">GE</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#location-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#location-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">Hannover</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#bubble-speak"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#bubble-speak"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#clock-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#clock-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Hours</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#verify"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#verify"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Jobs</span>
                         </div>
@@ -488,19 +488,19 @@
                             <span>Freelancer Name</span>
                             <div class="row-prop-rating-container">
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                               <svg class="row-prop-rating-svg">
-                                <use xlink:href="#star-2"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#star-2"></use>
                               </svg>
                             </div>
                           </div>
@@ -508,14 +508,14 @@
                           <div class="row-prop-c-det">
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#rocket-ship"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#rocket-ship"></use>
                               </svg>
                               <span class="row-prop-h">Work Start</span>
                               <span class="row-prop-txt">Now</span>
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Work Type</span>
                               <span class="row-prop-txt"
@@ -524,7 +524,7 @@
                             </div>
                             <div class="row-prop-inner-col row-prop-content">
                               <svg class="olymp-close-icon">
-                                <use xlink:href="#calendar-1"></use>
+                                <use xlink:href="@/assets/svg-sprite.svg#calendar-1"></use>
                               </svg>
                               <span class="row-prop-h">Warranty</span>
                               <span class="row-prop-txt">Yes – 3 Weeks</span>
@@ -543,31 +543,31 @@
                       <div class="row-prop-detail">
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#worldwide"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#worldwide"></use>
                           </svg>
                           <span class="row-prop-dl-txt">GE</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#location-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#location-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">Hannover</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#bubble-speak"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#bubble-speak"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#clock-1"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#clock-1"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Hours</span>
                         </div>
                         <div class="row-prop-dl-col">
                           <svg class="row-prop-dl-icon">
-                            <use xlink:href="#verify"></use>
+                            <use xlink:href="@/assets/svg-sprite.svg#verify"></use>
                           </svg>
                           <span class="row-prop-dl-txt">0 Jobs</span>
                         </div>
@@ -1204,7 +1204,7 @@
                     <div class="task-content ticket-prgs-common">
                       <div class="tckt-t-w task-icon">
                         <svg class="">
-                          <use xlink:href="#post-it-1"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">
@@ -1227,7 +1227,7 @@
                     <div class="task-content ticket-prgs-common">
                       <div class="tckt-t-w task-icon">
                         <svg class="">
-                          <use xlink:href="#post-it-1"></use>
+                          <use xlink:href="@/assets/svg-sprite.svg#post-it-1"></use>
                         </svg>
                       </div>
                       <div class="task-ctnt-common task-det">
