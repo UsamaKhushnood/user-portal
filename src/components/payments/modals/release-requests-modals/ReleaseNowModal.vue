@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-modal :id="'release-now-modal' + index" size="lg" hide-footer hide-header>
+    <b-modal :id="'release-request-release-now-modal' + index" size="lg" hide-footer hide-header>
       <template #default="{ close }">
         <div class="modal-content">
           <a

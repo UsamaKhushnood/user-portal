@@ -98,7 +98,7 @@
                       data-toggle="modal"
                       data-target="#oepn-model  "
                       v-if="x.status == 'open'"
-                      v-b-modal="'release-now-modal' + xIndex"
+                      v-b-modal="'release-request-release-now-modal' + xIndex"
                     >
                       Release Now
                     </a>
@@ -108,7 +108,7 @@
                       data-toggle="modal"
                       data-target="#doc-pdf-paid"
                       v-if="x.status == 'paid'"
-                      v-b-modal="'pdf-modal' + xIndex"
+                      v-b-modal="'release-request-pdf-modal' + xIndex"
                     >
                       <svg class="">
                         <use xlink:href="@/assets/svg-sprite.svg#file"></use>
@@ -126,7 +126,7 @@
                       data-toggle="modal"
                       data-target="#mlstn-in-dispute"
                       v-if="x.status == 'dispute'"
-                      v-b-modal="'dispute-modal' + xIndex"
+                      v-b-modal="'release-request-dispute-modal' + xIndex"
                     >
                       <svg class="">
                         <use xlink:href="@/assets/svg-sprite.svg#support"></use>

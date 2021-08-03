@@ -13,29 +13,29 @@
             </div>
             <ul class="nav nav-tabs nav-justified">
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#"
-                :class="[{ active: $route.hash === '' }]"    
+                    <a class="nav-link active" data-toggle="tab" href="#tab-2-1"
+                    
                 >New Job Interview</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#tab-2-2"
                    
                     >Service Appointment</a>
-                    <ul>
-                        <li><a class="nav-link" data-toggle="tab" href="#tab-2-2"
-                        :class="[{ active: $route.hash === '#tab-2-2' }]"
+ </li>
+                        <li class="nav-item"><a class="nav-link ps-5" data-toggle="tab" href="#tab-2-3"
+                        
                         >New Appointment</a></li>
-                        <li><a class="nav-link" data-toggle="tab" href="#tab-2-3"
-                        :class="[{ active: $route.hash === '#tab-2-3' }]"
+                        <li class="nav-item"><a class="nav-link ps-5" data-toggle="tab" href="#tab-2-4"
+                        
                         >Accepted Appointment</a></li>
-                        <li><a class="nav-link" data-toggle="tab" href="#tab-2-4"
-                        :class="[{ active: $route.hash === '#tab-2-4' }]"
+                        <li class="nav-item"><a class="nav-link ps-5" data-toggle="tab" href="#tab-2-5"
+                        
                         >Denied Appointment</a></li>
-                        <li><a class="nav-link" data-toggle="tab" href="#tab-2-5"
-                        :class="[{ active: $route.hash === '#tab-2-5' }]"
+                        <li class="nav-item"><a class="nav-link ps-5" data-toggle="tab" href="#tab-2-6"
+                       
                         >Canceled Appointment</a></li>
-                    </ul>
-                </li>
+
+               
             </ul>
         </div>
     </div>
@@ -65,19 +65,22 @@
 </div>	  			   				  		
 	</div>
         <div class="col col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 tab-content tab-content-nbg">
-            <div class="row t-container tab-pane show " id="tab-2-1" :class="[{ active: $route.hash === '' }]">
+            <div class="row t-container tab-pane show active" id="tab-2-1">
                 <NewJob/>
             </div>
-            <div class="row t-container tab-pane" id="tab-2-2" :class="[{ active: $route.hash === '#tab-2-2' }]">
+            <div class="row t-container tab-pane" id="tab-2-2">
+                <ServiceAppointment/>
+            </div>
+            <div class="row t-container tab-pane" id="tab-2-3">
                 <NewAppointment/>
             </div>
-            <div class="row t-container tab-pane" id="tab-2-3" :class="[{ active: $route.hash === '#tab-2-3' }]">
+            <div class="row t-container tab-pane" id="tab-2-4">
                 <AcceptedAppointment/>
             </div>
-            <div class="row t-container tab-pane" id="tab-2-4" :class="[{ active: $route.hash === '#tab-2-4' }]"> 
+            <div class="row t-container tab-pane" id="tab-2-5"> 
                 <DeniedAppointment/>
             </div>
-            <div class="row t-container tab-pane" id="tab-2-5" :class="[{ active: $route.hash === '#tab-2-5' }]">
+            <div class="row t-container tab-pane" id="tab-2-6">
                <CancelledAppointment/>
             </div>
         </div>
@@ -87,11 +90,12 @@
 </template> 
 <script>
 import NewJob from '@/components/appointment/NewJob.vue';
+import ServiceAppointment from '@/components/appointment/ServiceAppointment.vue';
 import NewAppointment from '@/components/appointment/NewAppointment.vue';
 import AcceptedAppointment from '@/components/appointment/AcceptedAppointment.vue';
 import DeniedAppointment from '@/components/appointment/DeniedAppointment.vue';
 import CancelledAppointment from '@/components/appointment/CancelledAppointment.vue';
 export default {
-    components:{NewJob,NewAppointment,AcceptedAppointment,DeniedAppointment,CancelledAppointment}
+    components:{NewJob,ServiceAppointment,NewAppointment,AcceptedAppointment,DeniedAppointment,CancelledAppointment}
 }
 </script>

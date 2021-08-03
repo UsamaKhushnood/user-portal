@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-modal :id="'release-request-pdf-modal' + index" size="xl" hide-footer hide-header>
+    <b-modal :id="'project-warranty-pdf-modal' + index" size="xl" hide-footer hide-header>
       <template #default="{ close }">
         <div class="modal-content">
           <a

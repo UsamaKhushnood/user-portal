@@ -94,7 +94,7 @@
                       data-toggle="modal"
                       data-target="#oepn-model  "
                       v-if="request.status == 'awaiting'"
-                      v-b-modal="'awaiting-modal' + requestIndex"
+                      v-b-modal="'refund-request-awaiting-modal' + requestIndex"
                     >
                       Awaiting
                     </a>
@@ -104,7 +104,7 @@
                       data-toggle="modal"
                       data-target="#doc-pdf-paid"
                       v-if="request.status == 'done'"
-                      v-b-modal="'pdf-modal' + requestIndex"
+                      v-b-modal="'refund-request-pdf-modal' + requestIndex"
                     >
                       <svg class="">
                         <use xlink:href="@/assets/svg-sprite.svg#file"></use>
@@ -121,7 +121,7 @@
                       "
                       
                       v-if="request.status == 'dispute'"
-                      v-b-modal="'dispute-refund-modal' + requestIndex"
+                      v-b-modal="'refund-request-dispute-refund-modal' + requestIndex"
                     >
                       <svg class="">
                         <use xlink:href="@/assets/svg-sprite.svg#support"></use>

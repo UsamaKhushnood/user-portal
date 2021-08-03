@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-modal :id="'pdf-modal' + index" size="xl" hide-footer hide-header>
+    <b-modal :id="'on-milestone-pdf-modal' + index" size="xl" hide-footer hide-header>
       <template #default="{ close }">
         <div class="modal-content">
           <a

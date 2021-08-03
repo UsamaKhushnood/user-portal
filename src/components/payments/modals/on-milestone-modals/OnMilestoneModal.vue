@@ -198,7 +198,7 @@
                         data-toggle="modal"
                         data-target="#release-payment"
                         v-if="request.status == 'open'"
-                        v-b-modal="'release-now-modal' + requestIndex"
+                        v-b-modal="'release-now-payments-modal' + requestIndex"
                         >Release Now</a
                       >
                       <ReleaseNowModal :index="requestIndex"></ReleaseNowModal>
@@ -208,7 +208,7 @@
                         data-toggle="modal"
                         data-target="#release-payment"
                         v-if="request.status == 'dispute'"
-                        v-b-modal="'view-modal' + requestIndex"
+                        v-b-modal="'view-payments-modal' + requestIndex"
                         >View</a
                       >
                       <ViewModal :index="requestIndex"></ViewModal>
@@ -217,7 +217,7 @@
                       data-toggle="modal"
                       data-target="#doc-pdf-paid"
                       v-if="request.status == 'paid'"
-                      v-b-modal="'pdf-modal' + requestIndex"
+                      v-b-modal="'on-milestone-pdf-modal' + requestIndex"
                     >
                       <svg class="">
                         <use xlink:href="@/assets/svg-sprite.svg#file"></use>

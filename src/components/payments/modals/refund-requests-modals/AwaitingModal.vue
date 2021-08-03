@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-modal :id="'awaiting-modal' + index" size="lg" hide-footer hide-header>
+    <b-modal :id="'refund-request-awaiting-modal' + index" size="lg" hide-footer hide-header>
       <template #default="{ close }">
         <div class="modal-content">
           <a

@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-modal
-      :id="'view-modal' + index"
+      :id="'view-payments-modal' + index"
       size="lg"
       hide-footer
       hide-header

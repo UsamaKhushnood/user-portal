@@ -56,6 +56,7 @@
           class="task-content-row"
           v-for="(fix, fixindex) in appointment"
           :key="fixindex"
+          v-b-modal="'new-job-interview-modal' + fixindex"
         >
           <div class="task-content ticket-prgs-common">
             <div class="task-ctnt-common task-icon">
@@ -104,13 +105,17 @@
               >{{ fix.status.toUpperCase() }}</span
             >
           </div>
+          <NewJobInterviewModal :index="fixindex"></NewJobInterviewModal>
         </div>
+        
       </div>
     </div>
   </div>
 </template>
 <script>
+import NewJobInterviewModal from "./modals/new-jobs-modals/NewJobInterviewModal.vue"
 export default {
+  components: { NewJobInterviewModal },
   data() {
     return {
       appointment: [

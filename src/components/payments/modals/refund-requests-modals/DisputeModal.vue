@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-modal
-      :id="'dispute-refund-modal' + index"
+      :id="'refund-request-dispute-refund-modal' + index"
       size="lg"
       hide-footer
       hide-header
