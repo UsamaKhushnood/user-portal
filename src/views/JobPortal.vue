@@ -11,40 +11,43 @@
                 </div>
                 <ul class="nav nav-tabs nav-justified">
                   <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#tab-2-1"
-                      >Seach a Job</a
-                    >
+                    <a class="nav-link active" data-toggle="tab" href="#tab-2-1"
+                      >Seach a Job
+                      <div class="ripple-container"></div
+                    ></a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#tab-2-2"
-                      :class="[{ active: $route.hash === '#tab-2-2' }]"
-                      >Work Requested</a
-                    >
+                    <a class="nav-link" data-toggle="tab" href="#tab-2-2"
+                      >Work Offer
+                      <div class="ripple-container"></div
+                    ></a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#tab-2-3"
-                      :class="[{ active: $route.hash === '#tab-2-3' }]"
-                      >View Document Request</a
-                    >
+                    <a class="nav-link" data-toggle="tab" href="#tab-2-3"
+                      >Work Interview
+                      <div class="ripple-container"></div
+                    ></a>
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#tab-2-4"
-                      :class="[{ active: $route.hash === '#tab-2-4' }]"
-                      >Employee Interview</a
-                    >
-                  </li>
+    
+                    <li class="nav-item ps-4">
+                      <a class="nav-link" data-toggle="tab" href="#tab-2-4"
+                        >New Interview
+                        <div class="ripple-container"></div
+                      ></a>
+                    </li>
+                    <li class="nav-item ps-4">
+                      <a class="nav-link" data-toggle="tab" href="#tab-2-5"
+                        >Accepted
+                        <div class="ripple-container"></div
+                      ></a>
+                    </li>
+                    <li class="nav-item ps-4">
+                      <a class="nav-link" data-toggle="tab" href="#tab-2-6"
+                        >Rejected
+                        <div class="ripple-container"></div
+                      ></a>
+                    </li>
+     
                 </ul>
               </div>
             </div>
@@ -81,11 +84,23 @@
             tab-content tab-content-nbg
           "
         >
-          <div
-            class="row t-container tab-pane show active"
-            id="tab-2-1"
-          >
+          <div class="row t-container tab-pane show active" id="tab-2-1">
             <SearchJob />
+          </div>
+          <div class="row t-container tab-pane" id="tab-2-2">
+            <WorkOffer></WorkOffer>
+          </div>
+          <div class="row t-container tab-pane" id="tab-2-3">
+            <WorkInterview></WorkInterview>
+          </div>
+          <div class="row t-container tab-pane" id="tab-2-4">
+            <NewInterview></NewInterview>
+          </div>
+          <div class="row t-container tab-pane" id="tab-2-5">
+            <Accepted></Accepted>
+          </div>
+          <div class="row t-container tab-pane" id="tab-2-6">
+            <Rejected></Rejected>
           </div>
         </div>
       </div>
@@ -94,9 +109,20 @@
 </template>
 <script>
 import SearchJob from "@/components/job-portals/SearchJob";
+import WorkOffer from "@/components/job-portals/WorkOffer";
+import WorkInterview from "@/components/job-portals/WorkInterview";
+import NewInterview from "@/components/job-portals/NewInterview";
+import Accepted from "@/components/job-portals/Accepted";
+import Rejected from "@/components/job-portals/Rejected";
+
 export default {
   components: {
     SearchJob,
+    WorkOffer,
+    WorkInterview,
+    NewInterview,
+    Accepted,
+    Rejected,
   },
 };
 </script>
